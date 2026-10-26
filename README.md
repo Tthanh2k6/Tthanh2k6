@@ -136,16 +136,18 @@ I'm **Trung Thanh Tran** (*Trần Trung Thành*), a Software Developer at **Mada
 
 ---
 
-## 🛠️ Selected Commercial & Private Engineering Highlights
+## 🛠️ Additional Public Repositories & Commercial Systems
 
-Beyond my public repositories, here are production systems and automation tools I have built and shipped:
-
-- 🛍️ **Madalena Customer Loyalty App & PHP Backend (Live on Google Play):** Sole developer of a production loyalty application (`React Native / Expo` + `PHP REST API` + `MySQL`, JWT auth, QR scanning, push notifications, cron jobs). Migrated backend infrastructure from Node.js on Render to shared PHP hosting to eliminate monthly cloud overhead.
-- 📊 **Multi-Marketplace Used-Phone Price Scraper & Statistical Deal Hunter (`ToolPhone`):** Python + SQLite + Flask intelligence engine crawling **4 marketplaces in parallel across 113 phone models (23,000+ listings/run)** with 3-tier shop detection, 68 defect rules, Iglewicz-Hoaglin MAD outlier rejection, and lifecycle tracking (`first_seen` → `gone_at`) to eliminate survivorship bias (`+17%` price skew).
-- 🤖 **E-Commerce Admin Automation & Order Exporter (`AutoTool`):** Multithreaded `Python` + `Tkinter` + headless `Selenium` + `OpenPyXL` desktop suite automating bulk inventory updates, flash-sale peak pricing with automatic rollback, and paginated order extraction into formatted Excel reports.
-- 📝 **AI-Powered Notes, Schedule & AES-256 Vault Android App (`GhiChu`):** Ultra-lightweight (`<3 MB APK`) native Android app in pure `Kotlin` featuring **Google Gemini AI** natural-language schedule parsing, `AES-256-GCM` private vault, local-first `Supabase` sync, and 3 home-screen AppWidgets ([Source Repo](https://github.com/Tthanh2k6/GhiChu)).
-- 🧭 **BLE Turn-by-Turn Navigation Engine & ESP32 Handlebar HUD (`MotoNav`):** Multi-module Android companion app (`Kotlin` + `Jetpack Compose`), shared bit-exact `C++17` binary protocol/vector core (`motonav_core`), and `ESP32` firmware streaming offline navigation over Bluetooth Low Energy.
-- 🏋️ **FitCoach AI Web App (`fitness-app`):** Client-side **MediaPipe Pose** exercise form tracker and a custom-trained **MobileNetV3 (`PyTorch` → `TensorFlow.js`)** in-browser food photo classifier with zero GPU server cost.
+- 🏋️ **FitCoach — On-Device AI Pose Coach & Food Classifier ([`Tthanh2k6/fitness-app`](https://github.com/Tthanh2k6/fitness-app)):** Offline-first React 19 + TypeScript web app running **33-keypoint MediaPipe Pose** form correction and an in-browser **MobileNetV3-Large** 28-dish food classifier (`53 Vitest unit tests`, zero GPU server cost).
+- 🧩 **BurgerShop POD Helper — Manifest V3 Chrome Extension ([`Tthanh2k6/burgershop-pod-tool`](https://github.com/Tthanh2k6/burgershop-pod-tool)):** Dual-world (`ISOLATED` + `MAIN` TinyMCE bridge) Chrome Extension automating multi-step product listings, PrimeNG virtual-scroll variant tables, and post-execution verification (`verifyStep1/2/3`) on Angular admin portals.
+- 🧭 **MotoNav — BLE Turn-by-Turn Navigation Engine & ESP32 HUD ([`Tthanh2k6/moto-nav`](https://github.com/Tthanh2k6/moto-nav)):** 11-module Android companion app (`Kotlin` + `Jetpack Compose`), shared bit-exact `C++17` binary protocol/rasterizer core (`motonav_core`), and `ESP32-2432S028R` (`320×240`) handlebar firmware.
+- 📝 **GhiChu — AI-Powered Notes, Schedule & AES-256 Vault ([`Tthanh2k6/GhiChu`](https://github.com/Tthanh2k6/GhiChu)):** Ultra-lightweight (`<3 MB APK`) native Android app in pure `Kotlin` featuring **Google Gemini AI** natural-language schedule parsing, `AES-256-GCM` private vault, local-first `Supabase` sync, and 3 home-screen AppWidgets.
+- 🔔 **GiuThongBao — Android FCM Push Keep-Alive Utility ([`Tthanh2k6/GiuThongBao`](https://github.com/Tthanh2k6/GiuThongBao)):** Native `Kotlin` + `Jetpack Compose` utility keeping `mtalk.google.com:5228` FCM sockets alive across aggressive OEM Doze/Freezer ROMs (`HyperOS` / `MIUI`).
+- 🖥️ **DesktopCustom — Windows 11 Live Wallpaper & Windhawk Suite ([`Tthanh2k6/DesktopCustom`](https://github.com/Tthanh2k6/DesktopCustom)):** Lively `WebView2` interactive scrapbook wallpaper, `DPAPI` background timetable sync, and headless `Windhawk` C++ taskbar dock automation.
+- 📊 **Commercial & Private Systems:**
+  - **Madalena Customer Loyalty App & PHP Backend (Live on Google Play):** Sole developer (`React Native / Expo` + `PHP REST API` + `MySQL`, JWT auth, QR scanning, push notifications).
+  - **Multi-Marketplace Price Intelligence (`ToolPhone`):** Python + SQLite + Flask crawler processing **23,000+ listings/run across 113 phone models** with Iglewicz-Hoaglin MAD outlier rejection and survivorship-bias lifecycle tracking (`first_seen` → `gone_at`).
+  - **Madalena E-Commerce Admin Automation (`AutoTool`):** Multithreaded `Python` + `Tkinter` + headless `Selenium` + `OpenPyXL` suite for bulk inventory, flash-sale rollback, and multi-page order Excel reporting.
 
 ---
 
@@ -168,3 +170,4 @@ Beyond my public repositories, here are production systems and automation tools 
 - 🌐 **Interactive 3D Portfolio & Printable CV:** [portfolio-red-theta-65.vercel.app](https://portfolio-red-theta-65.vercel.app/) · [View A4 CV](/cv)
 - 📧 **Email:** [Ttrungthanh90@gmail.com](mailto:Ttrungthanh90@gmail.com)
 - 🕒 **Timezone:** Ho Chi Minh City, Vietnam (`GMT+7` — overnight turnaround for US/EU clients)
+
