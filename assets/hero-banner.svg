@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07080D"/>
+      <stop offset="55%" stop-color="#0D111A"/>
+      <stop offset="100%" stop-color="#110E18"/>
+    </linearGradient>
+    <radialGradient id="glowOrange" cx="78%" cy="48%" r="48%">
+      <stop offset="0%" stop-color="#FF6B00" stop-opacity="0.22"/>
+      <stop offset="50%" stop-color="#E11D48" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="18%" cy="20%" r="40%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="65%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#FF8A3D"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6B00"/>
+      <stop offset="50%" stop-color="#00F0FF"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="cubeTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1B24"/>
+      <stop offset="100%" stop-color="#121016"/>
+    </linearGradient>
+    <linearGradient id="cubeSide" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A1A" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#090A0F" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace; }
+      @keyframes pulseDot {
+        0%, 100% { opacity: 1; r: 4.5px; }
+        50% { opacity: 0.45; r: 6px; }
+      }
+      @keyframes floatCube1 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-9px); }
+      }
+      @keyframes floatCube2 {
+        0%, 100% { transform: translateY(-6px); }
+        50% { transform: translateY(5px); }
+      }
+      @keyframes floatCube3 {
+        0%, 100% { transform: translateY(3px); }
+        50% { transform: translateY(-11px); }
+      }
+      @keyframes blinkCursor {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      .pulse { animation: pulseDot 2.4s ease-in-out infinite; }
+      .cube-a { animation: floatCube1 4.2s ease-in-out infinite; }
+      .cube-b { animation: floatCube2 5.1s ease-in-out infinite; }
+      .cube-c { animation: floatCube3 3.7s ease-in-out infinite; }
+      .cursor { animation: blinkCursor 1.1s infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="340" rx="18" fill="url(#bgGrad)" stroke="#1E293B" stroke-width="1.5"/>
+  <rect width="1200" height="340" rx="18" fill="url(#glowOrange)"/>
+  <rect width="1200" height="340" rx="18" fill="url(#glowCyan)"/>
+
+  <!-- Subtle perspective grid lines -->
+  <g stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1">
+    <line x1="0" y1="68" x2="1200" y2="68"/>
+    <line x1="0" y1="136" x2="1200" y2="136"/>
+    <line x1="0" y1="204" x2="1200" y2="204"/>
+    <line x1="0" y1="272" x2="1200" y2="272"/>
+    <line x1="150" y1="0" x2="150" y2="340"/>
+    <line x1="300" y1="0" x2="300" y2="340"/>
+    <line x1="450" y1="0" x2="450" y2="340"/>
+    <line x1="600" y1="0" x2="600" y2="340"/>
+    <line x1="750" y1="0" x2="750" y2="340"/>
+    <line x1="900" y1="0" x2="900" y2="340"/>
+    <line x1="1050" y1="0" x2="1050" y2="340"/>
+  </g>
+
+  <!-- Right Side Isometric 3D Neon Grid Illustration (matching Portfolio HeroScene) -->
+  <g transform="translate(885, 165)">
+    <!-- Base isometric tiles -->
+    <g stroke="#FF6B00" stroke-opacity="0.25" stroke-width="1" fill="#0B0D14" fill-opacity="0.85">
+      <polygon points="0,-95 55,-65 0,-35 -55,-65"/>
+      <polygon points="65,-60 120,-30 65,0 10,-30"/>
+      <polygon points="-65,-60 -10,-30 -65,0 -120,-30"/>
+      <polygon points="130,-25 185,5 130,35 75,5"/>
+      <polygon points="-130,-25 -75,5 -130,35 -185,5"/>
+      <polygon points="65,12 120,42 65,72 10,42"/>
+      <polygon points="-65,12 -10,42 -65,72 -120,42"/>
+      <polygon points="0,48 55,78 0,108 -55,78"/>
+    </g>
+
+    <!-- Elevated Glowing Cube B (Left) -->
+    <g class="cube-b" transform="translate(-65, -18)">
+      <polygon points="0,-32 48,-6 0,20 -48,-6" fill="url(#cubeTop)" stroke="#FF8A3D" stroke-width="1.5"/>
+      <polygon points="-48,-6 0,20 0,58 -48,32" fill="url(#cubeSide)" stroke="#FF6B00" stroke-width="1.2"/>
+      <polygon points="48,-6 0,20 0,58 48,32" fill="#14111A" stroke="#FF6B00" stroke-opacity="0.7" stroke-width="1.2"/>
+    </g>
+
+    <!-- Elevated Glowing Cube C (Right) -->
+    <g class="cube-c" transform="translate(65, -14)">
+      <polygon points="0,-32 48,-6 0,20 -48,-6" fill="url(#cubeTop)" stroke="#00F0FF" stroke-width="1.5"/>
+      <polygon points="-48,-6 0,20 0,54 -48,28" fill="#0D1F2D" fill-opacity="0.7" stroke="#00F0FF" stroke-opacity="0.8" stroke-width="1.2"/>
+      <polygon points="48,-6 0,20 0,54 48,28" fill="#0B131E" stroke="#00F0FF" stroke-opacity="0.5" stroke-width="1.2"/>
+    </g>
+
+    <!-- Center Hero Elevated Cube A with Sphere -->
+    <g class="cube-a" transform="translate(0, -10)">
+      <polygon points="0,-40 54,-10 0,20 -54,-10" fill="url(#cubeTop)" stroke="#FFB067" stroke-width="2" filter="url(#neonGlow)"/>
+      <polygon points="-54,-10 0,20 0,68 -54,38" fill="url(#cubeSide)" stroke="#FF6B00" stroke-width="1.6"/>
+      <polygon points="54,-10 0,20 0,68 54,38" fill="#17121E" stroke="#FF6B00" stroke-width="1.4"/>
+      <!-- Glowing core sphere on top of center cube -->
+      <circle cx="0" cy="-14" r="11" fill="#F8FAFC" stroke="#00F0FF" stroke-width="2.5" filter="url(#neonGlow)"/>
+      <ellipse cx="0" cy="-14" rx="14" ry="5" fill="none" stroke="#0F172A" stroke-width="2" transform="rotate(22 0 -14)"/>
+    </g>
+  </g>
+
+  <!-- Top Status Pill -->
+  <g transform="translate(52, 36)">
+    <rect x="0" y="0" width="388" height="30" rx="15" fill="#0F172A" fill-opacity="0.9" stroke="#1E293B" stroke-width="1.2"/>
+    <circle class="pulse" cx="18" cy="15" r="4.5" fill="#10B981"/>
+    <text x="32" y="19.5" class="font-mono" font-size="11.5" font-weight="600" fill="#E2E8F0" letter-spacing="1.2">AVAILABLE FOR FREELANCE · HO CHI MINH CITY (GMT+7)</text>
+  </g>
+
+  <!-- Main Name & Headline -->
+  <text x="52" y="124" class="font-sans" font-size="50" font-weight="800" fill="url(#titleGrad)" letter-spacing="-0.8">Trung Thanh Tran</text>
+  <text x="515" y="122" class="font-sans" font-size="20" font-weight="500" fill="#64748B">(Trần Trung Thành)</text>
+
+  <text x="52" y="160" class="font-sans" font-size="20" font-weight="600" fill="#38BDF8" letter-spacing="0.2">
+    Web Scraping, Browser Automation, Full-Stack &amp; Applied AI Developer
+  </text>
+
+  <rect x="52" y="178" width="590" height="2.5" rx="1.25" fill="url(#accentLine)"/>
+
+  <!-- Value Proposition -->
+  <text x="52" y="210" class="font-sans" font-size="14.5" fill="#94A3B8">
+    I build resilient data scrapers, hidden-API extractors, browser automations, and full-stack web &amp; mobile products that ship.
+  </text>
+
+  <!-- Terminal Telemetry Bar -->
+  <g transform="translate(52, 232)">
+    <rect x="0" y="0" width="675" height="72" rx="10" fill="#06080E" fill-opacity="0.92" stroke="#1E293B" stroke-width="1.2"/>
+    <circle cx="18" cy="16" r="4.5" fill="#EF4444"/>
+    <circle cx="32" cy="16" r="4.5" fill="#F59E0B"/>
+    <circle cx="46" cy="16" r="4.5" fill="#10B981"/>
+    <text x="64" y="19.5" class="font-mono" font-size="11" fill="#64748B">thanh@devops:~/workspace $ status --capabilities</text>
+
+    <text x="18" y="43" class="font-mono" font-size="12" fill="#E2E8F0">
+      <tspan fill="#10B981">➜</tspan> <tspan fill="#38BDF8">STACK:</tspan> Python · TypeScript · React 19 · Node.js · Playwright · Kotlin · Three.js · PHP
+    </text>
+    <text x="18" y="61" class="font-mono" font-size="12" fill="#E2E8F0">
+      <tspan fill="#FF6B00">➜</tspan> <tspan fill="#F59E0B">FOCUS:</tspan> High-Speed Async Scraping · Private APIs · Chrome Extensions MV3 · LLM Workflows<tspan class="cursor" fill="#00F0FF"> █</tspan>
+    </text>
+  </g>
+</svg>

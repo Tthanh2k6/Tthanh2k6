@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 130" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
+    </style>
+  </defs>
+
+  <!-- Card 1 -->
+  <g transform="translate(0, 6)">
+    <rect x="0" y="0" width="286" height="116" rx="14" fill="url(#cardBg)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect x="0" y="0" width="286" height="3" rx="1.5" fill="#FF6B00"/>
+    <text x="22" y="34" class="font-mono" font-size="11" font-weight="600" fill="#FF8A3D" letter-spacing="1.2">DATA EXTRACTION SCALE</text>
+    <text x="22" y="72" class="font-sans" font-size="30" font-weight="800" fill="#F8FAFC">23,000+ / run</text>
+    <text x="22" y="96" class="font-sans" font-size="12.5" fill="#94A3B8">Multi-marketplace parallel crawlers</text>
+  </g>
+
+  <!-- Card 2 -->
+  <g transform="translate(304, 6)">
+    <rect x="0" y="0" width="286" height="116" rx="14" fill="url(#cardBg)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect x="0" y="0" width="286" height="3" rx="1.5" fill="#00F0FF"/>
+    <text x="22" y="34" class="font-mono" font-size="11" font-weight="600" fill="#38BDF8" letter-spacing="1.2">HIDDEN API EFFICIENCY</text>
+    <text x="22" y="72" class="font-sans" font-size="30" font-weight="800" fill="#F8FAFC">&lt;15 MB RAM</text>
+    <text x="22" y="96" class="font-sans" font-size="12.5" fill="#94A3B8">vs ~180 MB headless DOM rendering</text>
+  </g>
+
+  <!-- Card 3 -->
+  <g transform="translate(608, 6)">
+    <rect x="0" y="0" width="286" height="116" rx="14" fill="url(#cardBg)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect x="0" y="0" width="286" height="3" rx="1.5" fill="#10B981"/>
+    <text x="22" y="34" class="font-mono" font-size="11" font-weight="600" fill="#34D399" letter-spacing="1.2">PRODUCTION APPS &amp; TOOLS</text>
+    <text x="22" y="72" class="font-sans" font-size="30" font-weight="800" fill="#F8FAFC">14+ Shipped</text>
+    <text x="22" y="96" class="font-sans" font-size="12.5" fill="#94A3B8">Google Play, WebGL SSR, Extensions</text>
+  </g>
+
+  <!-- Card 4 -->
+  <g transform="translate(912, 6)">
+    <rect x="0" y="0" width="288" height="116" rx="14" fill="url(#cardBg)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect x="0" y="0" width="288" height="3" rx="1.5" fill="#A855F7"/>
+    <text x="22" y="34" class="font-mono" font-size="11" font-weight="600" fill="#C084FC" letter-spacing="1.2">APPLIED AI &amp; VISION</text>
+    <text x="22" y="72" class="font-sans" font-size="30" font-weight="800" fill="#F8FAFC">99.1% / 9 Envs</text>
+    <text x="22" y="96" class="font-sans" font-size="12.5" fill="#94A3B8">CNN, YOLOv8, RL, MCTS &amp; LLM APIs</text>
+  </g>
+</svg>
