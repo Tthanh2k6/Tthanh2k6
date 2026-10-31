@@ -1,173 +1,61 @@
-<div align="center">
-  <a href="https://portfolio-red-theta-65.vercel.app/">
-    <img src="./assets/hero-banner.svg" alt="Trung Thanh Tran — Web Scraping, Automation, Full-Stack & AI Developer" width="100%" />
-  </a>
+# Trung Thanh Tran — B2B Data Extraction, Workflow Automation & Systems Engineer
 
-  <br />
+**Deterministic async Python scrapers (`< 50 MB RAM`), anti-bot hidden-API pipelines, `MCP` tool servers, and failure-isolated `n8n` / `FastAPI` / `ERP` automations shipped in 24–72 hours.**
 
-  <p align="center">
-    <a href="https://portfolio-red-theta-65.vercel.app/">
-      <img src="https://img.shields.io/badge/🌐_3D_Interactive_Portfolio-FF6B00?style=for-the-badge&logoColor=white" alt="3D Portfolio" />
-    </a>
-    <a href="https://www.upwork.com/freelancers/~01ee7c2348cb4b62fe">
-      <img src="https://img.shields.io/badge/💼_Hire_Me_on_Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork Profile" />
-    </a>
-    <a href="https://ai-lab-tthanh2006.vercel.app">
-      <img src="https://img.shields.io/badge/🎮_AI_Game_Arena_Live-00F0FF?style=for-the-badge&labelColor=0D1117&logoColor=00F0FF" alt="AI Game Arena" />
-    </a>
-    <a href="https://tthanh2k6.github.io/DiemDanhQR/">
-      <img src="https://img.shields.io/badge/📱_QR_Check--In_PWA-10B981?style=for-the-badge&labelColor=0D1117&logoColor=10B981" alt="QR Check-In PWA" />
-    </a>
-    <a href="mailto:Ttrungthanh90@gmail.com">
-      <img src="https://img.shields.io/badge/✉️_Ttrungthanh90@gmail.com-3B82F6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-  </p>
-
-  <img src="./assets/metrics-strip.svg" alt="Key Engineering Metrics" width="100%" />
-</div>
+- **Availability:** Open for **1-Week Paid Trial Sprints**, **24–48h Custom Data/Automation Builds**, and **White-Label Agency Overflow** (`UTC+7` — overnight delivery for US/UK/EU teams; real-time overlap with AU/SG).
+- **Direct Engineering Contact:** [ttrungthanh90@gmail.com](mailto:ttrungthanh90@gmail.com)
+- **Live Architecture & Case Studies:** [trungthanhtran.vercel.app](https://trungthanhtran.vercel.app)
+- **Zero-Fee Escrow Milestones:** [Upwork (`@trungthanhtrandev` — `$0` Freelancer Fee on Direct Contracts)](https://www.upwork.com/freelancers/trungthanhtrandev)
+- **Published Cloud Microservices:** [Apify Store (`@thanh81646` — 6 Commercial Actors)](https://apify.com/thanh81646) · [Engineering Benchmarks (`dev.to/tthanh2k6`)](https://dev.to/tthanh2k6)
 
 ---
 
-## ⚡ What I Build & Deliver
+## Verified Production Benchmarks (Why B2B Teams Replace Fragile Bots With Deterministic Pipelines)
 
-I'm **Trung Thanh Tran** (*Trần Trung Thành*), a Software Developer at **Madalena** and Computer Science student at **Industrial University of Ho Chi Minh City (IUH)** (`GMT+7`). I specialize in turning slow manual workflows and complex data sources into fast, automated, production-ready software.
-
-| Domain | Core Capabilities & Deliverables |
-| :--- | :--- |
-| 🕷️ **Web Scraping & Hidden APIs** | High-concurrency async crawlers (`Python`, `httpx`, `asyncio`), headless browser pipelines (`Playwright`, `Puppeteer`, `Selenium`) for infinite-scroll / JS-heavy sites, XHR/Fetch private JSON API discovery, and idempotent exports to `CSV`, `JSON`, `Excel (.xlsx)`, `SQLite`, or `PostgreSQL`. |
-| ⚙️ **Workflow & Browser Automation** | Custom **Manifest V3 Chrome Extensions** (`MAIN` + `ISOLATED` world bridges), multithreaded desktop automation suites (`Tkinter` + headless Chrome), **Google Sheets / Apps Script** real-time webhooks, and scheduled background sync engines. |
-| 🌐 **Full-Stack Web & 3D UI** | Server-side rendered web apps (`React 19`, `TanStack Start`, `TypeScript`, `Tailwind CSS v4`), interactive 3D WebGL experiences (`Three.js`, `UnrealBloomPass`, custom Verlet physics), and cost-effective `Node.js` / `PHP` REST APIs. |
-| 🤖 **Applied AI, Vision & Mobile** | LLM workflow integration (`OpenAI`, `Claude`, `Gemini APIs`), computer vision (`YOLOv8` + `ByteTrack`, `MediaPipe Pose`, `TensorFlow.js`), cross-platform mobile apps (`React Native / Expo` on Google Play, native `Kotlin`), and `ESP32` BLE firmware. |
+| Bottleneck in Typical Agency / Startup Stacks | Production Architecture Shipped | Measured Engineering Delta |
+| :--- | :--- | :--- |
+| **OOM Crashes & High Cloud Bills on Headless Scrapers** | Direct XHR / GraphQL / Next.js RSC & JSON-LD state interception in `Python 3.11` (`httpx.AsyncClient` + bounded `asyncio.Semaphore` + connection pooling), falling back to `Playwright` only for token minting | **`1,850 MB` Chromium cluster -> `24 MB` async container** (`51x` faster throughput; runs inside `$0.002/1k` serverless micro-containers) |
+| **Broken LLM JSON & Silent Data Loss in `n8n` / `Make.com`** | Strict Pydantic v2 / OpenAI Structured Outputs (`strict: true`), idempotency keys, dead-letter queues, and completeness-gated catalog diffing (`is_complete` circuit breakers) | **`0.00%` schema drift** across multi-step CRM, ERP, Shopify, and webhook ingestion pipelines |
+| **Expensive Clay / SaaS Credit Burn on Niche Verticals** | Custom Python / FastAPI enrichment sidecars joining federal registries (e.g., **CMS NPPES NPI v2.1**), DNS/MX checks, booking widget technographics, and corporate chain / DSO filters | **`85–95%` lower per-lead enrichment cost** with verified first-party signals unavailable in off-the-shelf databases |
+| **E-Commerce, Webhook & Legacy Portal Sync Drift** | Stateful SKU price/inventory delta monitors, Stripe/Shopify/GHL idempotent webhook routers, Google Sheets / Apps Script V8 chunked batch runners, and PHP/Node/PostgreSQL backend rescue | **Zero duplicate CRM/ERP writes** and sub-minute anomaly alerting |
 
 ---
 
-## 🚀 Featured Flagship Projects (Public & Live)
+## 6 Commercial Cloud Actors in Production ([Apify Store — `@thanh81646`](https://apify.com/thanh81646))
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🕷️ Python Web Scraping & Hidden API Toolkit</h3>
-      <p align="center">
-        <a href="https://github.com/Tthanh2k6/web-scraping-showcase">
-          <img src="https://raw.githubusercontent.com/Tthanh2k6/Portfolio/main/public/IMG/project-scraping.png" alt="Python Web Scraping Toolkit" width="100%" />
-        </a>
-      </p>
-      <p>
-        Production-grade Python extraction toolkit demonstrating three core scraping patterns on public sandbox targets:
-      </p>
-      <ul>
-        <li><b>Polite Async HTML Crawler (<code>scrape-books</code>):</b> Crawls 1,000+ paginated book pages with <code>httpx.AsyncClient</code>, <code>asyncio.Semaphore</code>, exponential backoff &amp; idempotent SQLite upserts.</li>
-        <li><b>Infinite Scroll vs. Hidden JSON API (<code>compare-scroll</code>):</b> Cuts memory footprint from <b>~180 MB to &lt;15 MB</b> by bypassing DOM rendering.</li>
-        <li><b>Reusable API Sniffer CLI (<code>sniff-api</code>):</b> Intercepts XHR/Fetch JSON endpoints on any JS page.</li>
-      </ul>
-      <p align="center">
-        <a href="https://github.com/Tthanh2k6/web-scraping-showcase"><img src="https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github" /></a>
-        <img src="https://img.shields.io/badge/Pytest-4_Passed-10B981?style=flat-square&logo=pytest" />
-        <img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🌐 Interactive 3D WebGL Portfolio & CMS</h3>
-      <p align="center">
-        <a href="https://portfolio-red-theta-65.vercel.app/">
-          <img src="https://raw.githubusercontent.com/Tthanh2k6/Portfolio/main/public/IMG/project-portfolio.png" alt="Interactive 3D Portfolio" width="100%" />
-        </a>
-      </p>
-      <p>
-        Full-stack bilingual (<code>EN</code> / <code>VI</code>) portfolio engineered with <b>TanStack Start (SSR)</b>, <b>React 19</b>, <b>TypeScript</b>, and <b>Three.js</b>:
-      </p>
-      <ul>
-        <li><b>3D &amp; Physics Engines:</b> Isometric neon grid with <code>UnrealBloomPass</code> raycasting, 25-node Verlet rope physics badge, and a 3D CSS mechanical keyboard synced with an exploding SVG Donut Chart.</li>
-        <li><b>Live GitHub API Sync:</b> Merges commercial case studies with live public repositories in an infinite film-strip carousel.</li>
-        <li><b>Print-Engineered A4 CV &amp; CMS:</b> Dedicated <code>/cv</code> PDF route and Web Crypto SHA-256 <code>/admin</code> CMS.</li>
-      </ul>
-      <p align="center">
-        <a href="https://portfolio-red-theta-65.vercel.app/"><img src="https://img.shields.io/badge/Live_Website-FF6B00?style=flat-square&logo=vercel&logoColor=white" /></a>
-        <a href="https://github.com/Tthanh2k6/Portfolio"><img src="https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github" /></a>
-        <img src="https://img.shields.io/badge/React_19_+_Three.js-61DAFB?style=flat-square&logo=react&logoColor=black" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🎮 AI Game Arena — RL, MCTS & 3D Lab</h3>
-      <p align="center">
-        <a href="https://ai-lab-tthanh2006.vercel.app">
-          <img src="https://raw.githubusercontent.com/Tthanh2k6/Portfolio/main/public/IMG/project-ailab.png" alt="AI Game Arena" width="100%" />
-        </a>
-      </p>
-      <p>
-        Cross-platform AI simulation lab (<b>Web SPA + Electron Desktop + Android Vision Agent</b>) featuring 9 environments written from scratch in pure TypeScript:
-      </p>
-      <ul>
-        <li><b>Game-Tree Search:</b> 20×20 Gomoku &amp; Connect Four using Web Worker Minimax (Alpha-Beta pruning, Iterative Deepening, Zobrist hashing) vs. MCTS (UCT), plus 2048 Expectimax.</li>
-        <li><b>Neuroevolution &amp; RL:</b> Raycast 2D Autonomous Racing, Flappy Bird genetic evolution, Q-Learning Maze, and Three.js 3D Soccer &amp; Tag.</li>
-        <li><b>Android Vision Agent:</b> Kotlin <code>MediaProjection</code> + <code>AccessibilityService</code> controller for live mobile games.</li>
-      </ul>
-      <p align="center">
-        <a href="https://ai-lab-tthanh2006.vercel.app"><img src="https://img.shields.io/badge/Play_Live_Demo-00F0FF?style=flat-square&labelColor=0D1117&logoColor=00F0FF" /></a>
-        <a href="https://github.com/Tthanh2k6/AI_Lab"><img src="https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github" /></a>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">📱 Serverless QR Check-In PWA + Sheets API</h3>
-      <p align="center">
-        <a href="https://tthanh2k6.github.io/DiemDanhQR/">
-          <img src="https://raw.githubusercontent.com/Tthanh2k6/Portfolio/main/public/IMG/project-diemdanhqr.jpg" alt="Serverless QR Check-In PWA" width="100%" />
-        </a>
-      </p>
-      <p>
-        Zero-server-cost mobile Progressive Web App (PWA) that scans member QR codes and logs attendance straight into <b>Google Sheets</b> in real time:
-      </p>
-      <ul>
-        <li><b>Continuous Queue Mode:</b> Non-blocking camera stream with a 3,000ms per-ID debounce map, scanning <b>~25 people/minute</b> while webhook requests process in the background.</li>
-        <li><b>Google Apps Script Webhook (<code>doGet</code>):</b> Automatically locates or creates the <code>dd-MM-yyyy</code> date column, marks <code>"x"</code> on the member row, and returns JSON.</li>
-        <li><b>Field-Tested UX:</b> 0.6x ultra-wide lens switcher, Web Audio API tones &amp; Web Speech API voice greeting.</li>
-      </ul>
-      <p align="center">
-        <a href="https://tthanh2k6.github.io/DiemDanhQR/"><img src="https://img.shields.io/badge/Live_PWA-10B981?style=flat-square&logo=pwa&logoColor=white" /></a>
-        <a href="https://github.com/Tthanh2k6/DiemDanhQR"><img src="https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github" /></a>
-        <img src="https://img.shields.io/badge/Google_Apps_Script-4285F4?style=flat-square&logo=google&logoColor=white" />
-      </p>
-    </td>
-  </tr>
-</table>
+Every engine below is containerized (`256 MB RAM`), whitelisted for **Agentic / MCP execution**, and inspectable on GitHub:
+
+| # | Production System | Target Vertical & Output Schema | Live Cloud & Source |
+| :-: | :--- | :--- | :--- |
+| **01** | **B2B Domain Lead, Contact & Tech-Stack Enricher** | Async extraction of MX-verified emails, phones, social profiles, Schema.org entities, and MarTech stack (`HubSpot`, `Shopify`, `GHL`, `WordPress`) | [Apify Store](https://apify.com/thanh81646/apify-b2b-lead-and-contact-enricher) · [Source](https://github.com/Tthanh2k6/apify-b2b-lead-and-contact-enricher) · [RapidAPI](https://rapidapi.com/Tthanh2k6/api/b2b-website-email-phone-and-tech-stack-enricher) |
+| **02** | **Shopify & WooCommerce Price, Variant Stock & JSON-LD Monitor** | Real-time SKU pricing, variant-level `in_stock` tracking, currency normalization, and structured Product JSON-LD delta extraction | [Apify Store](https://apify.com/thanh81646/apify-ecommerce-price-and-stock-monitor) · [Source](https://github.com/Tthanh2k6/apify-ecommerce-price-and-stock-monitor) · [RapidAPI](https://rapidapi.com/Tthanh2k6/api/shopify-and-woocommerce-price-and-stock-monitor) |
+| **03** | **US Healthcare Clinic, Federal NPI & Stealth DSO Detector** | Enriches US dental, medical, audiology & vet clinics with **CMS NPPES NPI** records, PMS booking widgets (`NexHealth`, `LocalMed`, `Weave`), and PE-backed DSO exclusion flags | [Apify Store](https://apify.com/thanh81646/apify-us-healthcare-clinic-contact-enricher) · [Source](https://github.com/Tthanh2k6/apify-us-healthcare-clinic-contact-enricher) |
+| **04** | **TheFork EU Restaurant & Reservation Stack Extractor** | Extracts European hospitality listings alongside reservation software footprints (`Formitable`, `Zenchef`, `Guestplan`, `Resengo`, `SevenRooms`) | [Apify Store](https://apify.com/thanh81646/thefork-restaurant-and-booking-system-scraper) · [Source](https://github.com/Tthanh2k6/apify-thefork-restaurant-scraper) |
+| **05** | **Malaysia KPKT TEDUH Licensed Property Developer Scraper** | Direct government JSON API harvester extracting `6,500+` licensed developers and `27,000+` housing project APDL records | [Apify Store](https://apify.com/thanh81646/malaysia-kpkt-teduh-property-developer-scraper) · [Source](https://github.com/Tthanh2k6/apify-malaysia-kpkt-teduh-property-scraper) |
+| **06** | **Multi-Stop Geocoder & Deterministic 2-Opt TSP Route Optimizer** | Batch OSM Nominatim geocoding, road-circuity Haversine matrices, shift time-window budgeting, and 1-click multi-stop Google Maps dispatch URLs | [Source](https://github.com/Tthanh2k6/apify-multi-stop-route-and-distance-optimizer) · [Benchmark Study](https://dev.to/tthanh2k6/engineering-sub-second-b2b-lead-enrichment-2-opt-route-optimization-pipelines-in-python-1le8) |
 
 ---
 
-## 🛠️ Additional Public Repositories & Commercial Systems
+## Core Open-Source Reference Repositories & Commercial Systems
 
-- 🏋️ **FitCoach — On-Device AI Pose Coach & Food Classifier ([`Tthanh2k6/fitness-app`](https://github.com/Tthanh2k6/fitness-app)):** Offline-first React 19 + TypeScript web app running **33-keypoint MediaPipe Pose** form correction and an in-browser **MobileNetV3-Large** 28-dish food classifier (`53 Vitest unit tests`, zero GPU server cost).
-- 🧩 **BurgerShop POD Helper — Manifest V3 Chrome Extension ([`Tthanh2k6/burgershop-pod-tool`](https://github.com/Tthanh2k6/burgershop-pod-tool)):** Dual-world (`ISOLATED` + `MAIN` TinyMCE bridge) Chrome Extension automating multi-step product listings, PrimeNG virtual-scroll variant tables, and post-execution verification (`verifyStep1/2/3`) on Angular admin portals.
-- 🧭 **MotoNav — BLE Turn-by-Turn Navigation Engine & ESP32 HUD ([`Tthanh2k6/moto-nav`](https://github.com/Tthanh2k6/moto-nav)):** 11-module Android companion app (`Kotlin` + `Jetpack Compose`), shared bit-exact `C++17` binary protocol/rasterizer core (`motonav_core`), and `ESP32-2432S028R` (`320×240`) handlebar firmware.
-- 📝 **GhiChu — AI-Powered Notes, Schedule & AES-256 Vault ([`Tthanh2k6/GhiChu`](https://github.com/Tthanh2k6/GhiChu)):** Ultra-lightweight (`<3 MB APK`) native Android app in pure `Kotlin` featuring **Google Gemini AI** natural-language schedule parsing, `AES-256-GCM` private vault, local-first `Supabase` sync, and 3 home-screen AppWidgets.
-- 🔔 **GiuThongBao — Android FCM Push Keep-Alive Utility ([`Tthanh2k6/GiuThongBao`](https://github.com/Tthanh2k6/GiuThongBao)):** Native `Kotlin` + `Jetpack Compose` utility keeping `mtalk.google.com:5228` FCM sockets alive across aggressive OEM Doze/Freezer ROMs (`HyperOS` / `MIUI`).
-- 🖥️ **DesktopCustom — Windows 11 Live Wallpaper & Windhawk Suite ([`Tthanh2k6/DesktopCustom`](https://github.com/Tthanh2k6/DesktopCustom)):** Lively `WebView2` interactive scrapbook wallpaper, `DPAPI` background timetable sync, and headless `Windhawk` C++ taskbar dock automation.
-- 📊 **Commercial & Private Systems:**
-  - **Madalena Customer Loyalty App & PHP Backend (Live on Google Play):** Sole developer (`React Native / Expo` + `PHP REST API` + `MySQL`, JWT auth, QR scanning, push notifications).
-  - **Multi-Marketplace Price Intelligence (`ToolPhone`):** Python + SQLite + Flask crawler processing **23,000+ listings/run across 113 phone models** with Iglewicz-Hoaglin MAD outlier rejection and survivorship-bias lifecycle tracking (`first_seen` → `gone_at`).
-  - **Madalena E-Commerce Admin Automation (`AutoTool`):** Multithreaded `Python` + `Tkinter` + headless `Selenium` + `OpenPyXL` suite for bulk inventory, flash-sale rollback, and multi-page order Excel reporting.
+- **[`ai-automation-and-rag-toolkit`](https://github.com/Tthanh2k6/ai-automation-and-rag-toolkit):** Production `FastAPI` + `n8n` reference architecture featuring Hybrid `BM25` + Vector `RRF` citation-grounded RAG, strict OpenAI Structured Outputs, stream backpressure control, Google Apps Script route automation, and PostgreSQL RLS `pgTAP` security tests.
+- **[`web-scraping-showcase`](https://github.com/Tthanh2k6/web-scraping-showcase):** Async `httpx` + `Playwright` extraction patterns, XHR/GraphQL API sniffer CLI, exponential backoff, and idempotent `CSV` / `XLSX` / `SQLite` persistence (`pytest` verified).
+- **[`burgershop-pod-tool`](https://github.com/Tthanh2k6/burgershop-pod-tool):** Dual-world (`ISOLATED` + `MAIN` bridge) Manifest V3 Chrome Extension automating multi-step e-commerce catalog listings, virtual-scroll variant tables, and post-write verification on Angular admin portals.
+- **Production E-Commerce & Loyalty Infrastructure (`Madalena`):** Architected and shipped a cross-platform customer loyalty system (`React Native / Expo` + `REST API` + `MySQL`, JWT auth, QR check-in, scheduled jobs, live on Google Play), migrated backend hosting to cut recurring cloud spend, and built multi-marketplace price lifecycle intelligence across `23,000+` listings/run.
 
 ---
 
-## 🧰 Tech Stack & Tooling
+## Technical Stack & Verified Credentials
 
-<div align="center">
-  <p>
-    <img src="https://skillicons.dev/icons?i=py,ts,js,kotlin,cpp,php,react,nodejs,tailwind,threejs,vite,flask&perline=12" alt="Core Stack" />
-  </p>
-  <p>
-    <img src="https://skillicons.dev/icons?i=playwright,selenium,sqlite,mysql,postgres,supabase,pytorch,tensorflow,androidstudio,git,github,vercel&perline=12" alt="Automation, Data & Cloud" />
-  </p>
-</div>
+- **Languages & Runtimes:** Python (`3.11+`, `asyncio`, `httpx`, `Pydantic`, `FastAPI`, `Playwright`, `selectolax`), TypeScript / Node.js, SQL (`PostgreSQL`, `Supabase`, `MySQL`, `SQLite`, `DuckDB`), PHP, Google Apps Script (`V8`).
+- **Automation & AI Systems:** `n8n` (self-hosted queue hardening & custom webhook nodes), `Make.com`, `Clay` HTTP enrichment sidecars, `MCP` (`Model Context Protocol`) servers, OpenAI / Anthropic Structured Outputs, Hybrid RAG.
+- **6x Verified HackerRank Engineering Certifications:**
+  `Software Engineer (3e14323f3998)` · `REST API Intermediate (0950402ec1b3)` · `SQL Advanced (f6214fbc9a7f)` · `Node.js Intermediate (aea6444671ab)` · `JavaScript Intermediate (73f0cc9845c4)` · `Problem Solving Intermediate (34ee18911edf)`
 
 ---
 
-## 📫 Let's Work Together
+## Start a 24–48h Custom Build or 1-Week Paid Trial Sprint
 
-- 💼 **Upwork (Fastest response for project inquiries):** [upwork.com/freelancers/~01ee7c2348cb4b62fe](https://www.upwork.com/freelancers/~01ee7c2348cb4b62fe)
-- 🌐 **Interactive 3D Portfolio & Printable CV:** [portfolio-red-theta-65.vercel.app](https://portfolio-red-theta-65.vercel.app/) · [View A4 CV](/cv)
-- 📧 **Email:** [Ttrungthanh90@gmail.com](mailto:Ttrungthanh90@gmail.com)
-- 🕒 **Timezone:** Ho Chi Minh City, Vietnam (`GMT+7` — overnight turnaround for US/EU clients)
-
+1. **Sample-First Proof (`< 24h`):** Send a target URL, API spec, or workflow bottleneck to **[ttrungthanh90@gmail.com](mailto:ttrungthanh90@gmail.com)**. I validate the target schema and return a clean 20–50 row sample (`.csv` / `.xlsx` / `.json`) or architectural teardown before you commit.
+2. **Frictionless Global Settlement:** Available via **Upwork Direct Contract (`$0` Freelancer Fee + Escrow Protection)** at [upwork.com/freelancers/trungthanhtrandev](https://www.upwork.com/freelancers/trungthanhtrandev) or direct commercial invoice (`Wise` / international bank transfer).
+3. **Full Portfolio & Printable A4 CV:** [trungthanhtran.vercel.app](https://trungthanhtran.vercel.app) · [trungthanhtran.vercel.app/cv](https://trungthanhtran.vercel.app/cv)
