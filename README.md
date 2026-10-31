@@ -18,6 +18,7 @@ Python & automation developer in Ho Chi Minh City (UTC+7). I build web scrapers,
 
 | Project | What it is |
 | :--- | :--- |
+| [vn-sme-offline-tools](https://github.com/Tthanh2k6/vn-sme-offline-tools) · [live demo](https://tthanh2k6.github.io/vn-sme-offline-tools/) | 9 offline browser tools for Vietnamese small businesses (VietQR cashier, debt aging, quotes, fleet fuel & toll reconciliation with Excel import, e-invoice XML check) |
 | [web-scraping-showcase](https://github.com/Tthanh2k6/web-scraping-showcase) | Async `httpx` + Playwright extraction patterns, API sniffer CLI, retry/backoff, CSV/XLSX/SQLite output, pytest |
 | [apify-b2b-lead-and-contact-enricher](https://github.com/Tthanh2k6/apify-b2b-lead-and-contact-enricher) | Apify Actor: finds emails, phones, social links and tech stack on company websites |
 | [apify-us-healthcare-clinic-contact-enricher](https://github.com/Tthanh2k6/apify-us-healthcare-clinic-contact-enricher) | Apify Actor: contact and booking-widget details from US clinic websites |
