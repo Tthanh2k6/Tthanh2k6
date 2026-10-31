@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="200" viewBox="0 0 410 200">
+  <style>
+    .l { font: 600 11px Consolas, 'SFMono-Regular', ui-monospace, monospace; letter-spacing: 1.5px; fill: #3776AB; }
+    .t { font: 700 19px 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; fill: #F0F6FC; }
+    .d { font: 400 13.5px 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; fill: #9DA7B3; }
+    .chip { fill: #161B26; stroke: #2A3140; }
+    .ct { font: 500 11.5px Consolas, 'SFMono-Regular', ui-monospace, monospace; fill: #C9D1D9; }
+    .sweep { animation: sweep 4s ease-in-out infinite; }
+    @keyframes sweep { 0% { transform: translateX(-120px); } 100% { transform: translateX(410px); } }
+    @media (prefers-reduced-motion: reduce) { .sweep { animation: none; opacity: 0; } }
+  </style>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#FF6B00" stop-opacity="0"/><stop offset=".5" stop-color="#FF6B00"/><stop offset="1" stop-color="#FF6B00" stop-opacity="0"/></linearGradient>
+    <clipPath id="c"><rect width="410" height="200" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="410" height="200" fill="#0D111A"/>
+    <rect width="410" height="2" fill="#1F2633"/>
+    <rect class="sweep" width="120" height="2" fill="url(#g)"/>
+  </g>
+  <rect x=".5" y=".5" width="409" height="199" rx="14" fill="none" stroke="#232A36"/>
+  <circle cx="27" cy="32" r="4" fill="#3776AB"/>
+  <text x="38" y="36" class="l">PYTHON · TOOLKIT</text>
+  <text x="22" y="70" class="t">web-scraping-showcase</text>
+  <text x="22" y="98" class="d">Async httpx + Playwright scraping patterns, an API</text><text x="22" y="118" class="d">sniffer CLI, retry/backoff, CSV / XLSX / SQLite</text><text x="22" y="138" class="d">output.</text>
+  <rect x="22" y="160" width="48" height="24" rx="12" class="chip"/><text x="46" y="175" class="ct" text-anchor="middle">httpx</text><rect x="78.0" y="160" width="82" height="24" rx="12" class="chip"/><text x="119" y="175" class="ct" text-anchor="middle">Playwright</text><rect x="168.0" y="160" width="55" height="24" rx="12" class="chip"/><text x="195" y="175" class="ct" text-anchor="middle">SQLite</text><rect x="230.8" y="160" width="55" height="24" rx="12" class="chip"/><text x="258" y="175" class="ct" text-anchor="middle">pytest</text>
+</svg>

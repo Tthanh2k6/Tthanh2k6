@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="200" viewBox="0 0 410 200">
+  <style>
+    .l { font: 600 11px Consolas, 'SFMono-Regular', ui-monospace, monospace; letter-spacing: 1.5px; fill: #97D700; }
+    .t { font: 700 19px 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; fill: #F0F6FC; }
+    .d { font: 400 13.5px 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; fill: #9DA7B3; }
+    .chip { fill: #161B26; stroke: #2A3140; }
+    .ct { font: 500 11.5px Consolas, 'SFMono-Regular', ui-monospace, monospace; fill: #C9D1D9; }
+    .sweep { animation: sweep 4s ease-in-out infinite; }
+    @keyframes sweep { 0% { transform: translateX(-120px); } 100% { transform: translateX(410px); } }
+    @media (prefers-reduced-motion: reduce) { .sweep { animation: none; opacity: 0; } }
+  </style>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#FF6B00" stop-opacity="0"/><stop offset=".5" stop-color="#FF6B00"/><stop offset="1" stop-color="#FF6B00" stop-opacity="0"/></linearGradient>
+    <clipPath id="c"><rect width="410" height="200" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="410" height="200" fill="#0D111A"/>
+    <rect width="410" height="2" fill="#1F2633"/>
+    <rect class="sweep" width="120" height="2" fill="url(#g)"/>
+  </g>
+  <rect x=".5" y=".5" width="409" height="199" rx="14" fill="none" stroke="#232A36"/>
+  <circle cx="27" cy="32" r="4" fill="#97D700"/>
+  <text x="38" y="36" class="l">APIFY ACTOR</text>
+  <text x="22" y="70" class="t">E-commerce price &amp; stock monitor</text>
+  <text x="22" y="98" class="d">Reads price and stock from Shopify / WooCommerce</text><text x="22" y="118" class="d">product pages, including Product JSON-LD.</text>
+  <rect x="22" y="160" width="55" height="24" rx="12" class="chip"/><text x="49" y="175" class="ct" text-anchor="middle">Python</text><rect x="84.8" y="160" width="48" height="24" rx="12" class="chip"/><text x="109" y="175" class="ct" text-anchor="middle">Apify</text><rect x="140.8" y="160" width="62" height="24" rx="12" class="chip"/><text x="172" y="175" class="ct" text-anchor="middle">Shopify</text><rect x="210.4" y="160" width="89" height="24" rx="12" class="chip"/><text x="255" y="175" class="ct" text-anchor="middle">WooCommerce</text>
+</svg>

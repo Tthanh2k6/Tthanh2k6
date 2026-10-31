@@ -2,7 +2,7 @@
 
 > **Đường dẫn dự án:** `d:\Project\Tthanh2k6`  
 > **Kho lưu trữ GitHub:** `https://github.com/Tthanh2k6/Tthanh2k6` (Special Profile Repository hiển thị trực tiếp tại `https://github.com/Tthanh2k6`)  
-> **Mục đích:** Trang giới thiệu năng lực kỹ thuật chuẩn quốc tế (English) cho khách hàng Upwork, nhà tuyển dụng và cộng đồng mã nguồn mở.
+> **Mục đích:** Trang giới thiệu năng lực (English) cho khách Upwork, nhà tuyển dụng và cộng đồng mã nguồn mở.
 
 ---
 
@@ -11,21 +11,52 @@
 ```text
 Tthanh2k6/
 ├── assets/
-│   ├── hero-banner.svg     # Banner SVG động (CSS keyframe animations) phong cách 3D Isometric Neon Grid
-│   └── metrics-strip.svg   # Thanh 4 thẻ chỉ số kỹ thuật thực chiến (KPI Cards) tự chủ 100%, không phụ thuộc server bên thứ 3
-├── README.md               # Nội dung trang GitHub Profile chính (Hero, Quick Links, Capabilities, 2x2 Bento Grid, Case Studies, Tech Stack)
-├── CODEBASE.md             # Tài liệu kiến trúc kho lưu trữ (file hiện tại)
-└── agent.md                # Hướng dẫn cập nhật dành cho AI Agent
+│   ├── hero-banner.svg      # Banner SVG động (CSS @keyframes): pill "Available", tên, chức danh, thanh terminal 1 dòng, khối lập phương isometric
+│   ├── vn-sme-tools.gif     # GIF 4 màn hình THẬT của vn-sme-offline-tools (chụp khổ 840px, DPR 2, thu về 1260x840)
+│   └── cards/*.svg          # 4 thẻ dự án 410x200 (web-scraping-showcase, b2b-enricher, price-monitor, diemdanhqr)
+├── scripts/
+│   ├── make_cards.py        # Sinh assets/cards/*.svg — sửa danh sách CARDS rồi chạy: python -X utf8 scripts/make_cards.py assets/cards
+│   └── shoot.py             # Chụp màn vn-sme-offline-tools bằng Playwright: python -X utf8 scripts/shoot.py <thư-mục-ra>
+├── README.md                # Nội dung trang profile
+├── CODEBASE.md              # Tài liệu này
+└── agent.md                 # Hướng dẫn cho AI Agent
 ```
 
 ---
 
-## 2. Thiết kế Kỹ thuật & Điểm nhấn Thị giác
+## 2. Bố cục `README.md` (từ trên xuống)
 
-1. **Tự chủ hoàn toàn đồ họa SVG (`assets/*.svg`):**
-   - Thay vì phụ thuộc vào các dịch vụ bên thứ ba dễ lỗi `503` hoặc bị chặn rate-limit trên GitHub Camo (`github-readme-stats.vercel.app`), dự án tự đóng gói [`assets/hero-banner.svg`](file:///d:/Project/Tthanh2k6/assets/hero-banner.svg) và [`assets/metrics-strip.svg`](file:///d:/Project/Tthanh2k6/assets/metrics-strip.svg) với hiệu ứng hoạt ảnh CSS `@keyframes` nhúng trực tiếp.
-   - Phối màu đồng bộ tuyệt đối với dự án [`d:\Project\Portfolio`](file:///d:/Project/Portfolio): nền tối `#07080D`, khối lập phương 3D isometric phát sáng cam `#FF6B00` / xanh `#00F0FF`, đèn trạng thái xanh lá `#10B981` nhấp nháy và khung cửa sổ Terminal trực quan.
-2. **Bố cục Lưới Dự án 2×2 (Visual Bento Grid):**
-   - Trình bày 4 dự án công khai chủ lực (`web-scraping-showcase`, `Portfolio`, `AI_Lab`, `DiemDanhQR`) kèm ảnh chụp màn hình 16:9 sắc nét, thông số kỹ thuật định lượng và nút bấm tới thẳng **Live Demo** / **Source Code**.
-3. **Liên kết Chéo Hệ sinh thái Cá nhân:**
-   - Kết nối trực tiếp tới **Upwork Profile** (`https://www.upwork.com/freelancers/~01ee7c2348cb4b62fe`), **3D Interactive Portfolio** (`https://portfolio-red-theta-65.vercel.app/`) và trang xuất **CV A4**.
+1. Hero banner (`assets/hero-banner.svg`) + dòng chữ tự gõ (`readme-typing-svg.demolab.com`).
+2. Hàng badge `shields.io`: Upwork · Apify Store · Portfolio (`trungthanhtran.vercel.app`) · dev.to · Email.
+3. "Hi, I'm Thanh" + câu kêu gọi thuê (blockquote).
+4. "What I work on" — danh sách 4 mảng.
+5. "Stack" — `skillicons.dev` + badge cho httpx/Playwright/Apify/n8n/Make/Apps Script/Expo.
+6. "Featured projects" — `vn-sme-offline-tools` (GIF thật + badge Live demo/Source) và lưới 2×2 thẻ SVG; `<details>` "More public projects".
+7. "Certificates" — badge HackerRank; chân trang sóng `capsule-render.vercel.app`.
+
+---
+
+## 3. Bất biến (Guardrails)
+
+1. **Chỉ thông tin kiểm chứng được, ẩn điểm yếu nhưng không bịa điểm mạnh.** Không đưa số liệu tự đặt (accuracy %, tốc độ x lần, "N accounts verified"...). Đã gỡ `metrics-strip.svg` và các ảnh `Portfolio/public/IMG/project-*.png` vì là ảnh minh họa dựng sẵn kèm số liệu bịa.
+2. **Không đặt thẻ làm lộ số yếu:** streak (dài nhất 4 ngày), tổng contributions, rắn contribution (20 tuần đầu năm trống), star/follower count.
+3. **Ảnh minh họa phải là ảnh chụp thật** của sản phẩm, không dùng ảnh AI/mockup.
+4. **Cỡ chữ:** cột README trên profile rộng ~830px. Ảnh/SVG phải thiết kế theo kích thước hiển thị thật (thẻ 2 cột → rộng 410; ảnh full cột → chụp ~840px) để chữ ≥ 12px.
+5. Dịch vụ thống kê chạy trên Vercel (`github-readme-stats`, `github-readme-activity-graph`) đang lỗi `402/503` — không dùng.
+
+---
+
+## 4. Kiểm tra trước khi push
+
+Render bằng API của GitHub (chế độ `markdown`, giống README) rồi xem ở khổ 830px:
+
+```bash
+python -X utf8 -c "import json;print(json.dumps({'text':open('README.md',encoding='utf8').read(),'mode':'markdown'}))" > req.json
+gh api markdown --input req.json > body.html   # bọc thêm github-markdown-dark.css, width:830px để xem
+```
+
+---
+
+## 9. Nhật ký Cập nhật Tài liệu
+
+- 2026-10-31: Thiết kế lại profile — banner chữ lớn, GIF màn hình thật, thẻ SVG 410px, bỏ `metrics-strip.svg`, thêm `scripts/make_cards.py` + `scripts/shoot.py`, thêm mục Bất biến.

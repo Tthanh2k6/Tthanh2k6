@@ -127,40 +127,22 @@
   </g>
 
   <!-- Top Status Pill -->
-  <g transform="translate(52, 36)">
-    <rect x="0" y="0" width="388" height="30" rx="15" fill="#0F172A" fill-opacity="0.9" stroke="#1E293B" stroke-width="1.2"/>
-    <circle class="pulse" cx="18" cy="15" r="4.5" fill="#10B981"/>
-    <text x="32" y="19.5" class="font-mono" font-size="11.5" font-weight="600" fill="#E2E8F0" letter-spacing="1.2">AVAILABLE FOR FREELANCE · HO CHI MINH CITY (GMT+7)</text>
+  <g transform="translate(52, 34)">
+    <rect x="0" y="0" width="560" height="40" rx="20" fill="#0F172A" fill-opacity="0.9" stroke="#1E293B" stroke-width="1.2"/>
+    <circle class="pulse" cx="22" cy="20" r="6" fill="#10B981"/>
+    <text x="40" y="26" class="font-mono" font-size="16.5" font-weight="600" fill="#E2E8F0" letter-spacing="1.2">AVAILABLE FOR FREELANCE · HCMC (GMT+7)</text>
   </g>
 
   <!-- Main Name & Headline -->
-  <text x="52" y="124" class="font-sans" font-size="50" font-weight="800" fill="url(#titleGrad)" letter-spacing="-0.8">Trung Thanh Tran</text>
-  <text x="515" y="122" class="font-sans" font-size="20" font-weight="500" fill="#64748B">(Trần Trung Thành)</text>
+  <text x="50" y="150" class="font-sans" font-size="68" font-weight="800" fill="url(#titleGrad)" letter-spacing="-1">Trung Thanh Tran</text>
 
-  <text x="52" y="160" class="font-sans" font-size="20" font-weight="600" fill="#38BDF8" letter-spacing="0.2">
-    Web Scraping, Browser Automation, Full-Stack &amp; Applied AI Developer
-  </text>
+  <text x="52" y="200" class="font-sans" font-size="28" font-weight="600" fill="#38BDF8">Web Scraping · Automation · Full-Stack</text>
 
-  <rect x="52" y="178" width="590" height="2.5" rx="1.25" fill="url(#accentLine)"/>
+  <rect x="52" y="220" width="600" height="3" rx="1.5" fill="url(#accentLine)"/>
 
-  <!-- Value Proposition -->
-  <text x="52" y="210" class="font-sans" font-size="14.5" fill="#94A3B8">
-    I build resilient data scrapers, hidden-API extractors, browser automations, and full-stack web &amp; mobile products that ship.
-  </text>
-
-  <!-- Terminal Telemetry Bar -->
-  <g transform="translate(52, 232)">
-    <rect x="0" y="0" width="675" height="72" rx="10" fill="#06080E" fill-opacity="0.92" stroke="#1E293B" stroke-width="1.2"/>
-    <circle cx="18" cy="16" r="4.5" fill="#EF4444"/>
-    <circle cx="32" cy="16" r="4.5" fill="#F59E0B"/>
-    <circle cx="46" cy="16" r="4.5" fill="#10B981"/>
-    <text x="64" y="19.5" class="font-mono" font-size="11" fill="#64748B">thanh@devops:~/workspace $ status --capabilities</text>
-
-    <text x="18" y="43" class="font-mono" font-size="12" fill="#E2E8F0">
-      <tspan fill="#10B981">➜</tspan> <tspan fill="#38BDF8">STACK:</tspan> Python · TypeScript · React 19 · Node.js · Playwright · Kotlin · Three.js · PHP
-    </text>
-    <text x="18" y="61" class="font-mono" font-size="12" fill="#E2E8F0">
-      <tspan fill="#FF6B00">➜</tspan> <tspan fill="#F59E0B">FOCUS:</tspan> High-Speed Async Scraping · Private APIs · Chrome Extensions MV3 · LLM Workflows<tspan class="cursor" fill="#00F0FF"> █</tspan>
-    </text>
+  <!-- Terminal Bar -->
+  <g transform="translate(52, 246)">
+    <rect x="0" y="0" width="640" height="58" rx="12" fill="#06080E" fill-opacity="0.92" stroke="#1E293B" stroke-width="1.2"/>
+    <text x="22" y="37" class="font-mono" font-size="19" fill="#E2E8F0"><tspan fill="#FF6B00">➜</tspan> Python · httpx · Playwright · n8n · FastAPI<tspan class="cursor" fill="#00F0FF"> █</tspan></text>
   </g>
 </svg>
