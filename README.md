@@ -76,9 +76,9 @@ The Apify Actors were published in October 2026 and are still new.
 ### ✍️ Latest articles
 
 <!-- BLOG-POST-LIST:START -->
-- [Engineering Sub-Second B2B Lead Enrichment &amp; 2-Opt Route Optimization Pipelines in Python](https://dev.to/tthanh2k6/engineering-sub-second-b2b-lead-enrichment-2-opt-route-optimization-pipelines-in-python-1le8)
-- [Eliminating Broken LLM JSON in Production Workflows &lpar;Node.js, FastAPI &amp; n8n Strict Schemas&rpar;](https://dev.to/tthanh2k6/eliminating-broken-llm-json-in-production-workflows-nodejs-fastapi-n8n-strict-schemas-3fli)
-- [Stop Scraping DOMs When JSON APIs Are Hiding in Plain Sight: Benchmarks with Async Python &amp; Playwright](https://dev.to/tthanh2k6/stop-scraping-doms-when-json-apis-are-hiding-in-plain-sight-benchmarks-with-async-python--5bia)
+- [Building a B2B Lead Enricher and a 2-Opt Route Optimizer in Python &lpar;No Headless Browser&rpar;](https://dev.to/tthanh2k6/engineering-sub-second-b2b-lead-enrichment-2-opt-route-optimization-pipelines-in-python-1le8)
+- [Handling Broken LLM JSON with Strict Schemas and finish_reason Guards &lpar;FastAPI, Node.js &amp; n8n&rpar;](https://dev.to/tthanh2k6/eliminating-broken-llm-json-in-production-workflows-nodejs-fastapi-n8n-strict-schemas-3fli)
+- [Stop Scraping DOMs When JSON APIs Are Hiding in Plain Sight: A Small Benchmark with Async Python &amp; Playwright](https://dev.to/tthanh2k6/stop-scraping-doms-when-json-apis-are-hiding-in-plain-sight-benchmarks-with-async-python--5bia)
 <!-- BLOG-POST-LIST:END -->
 
 ### 📜 Certificates
