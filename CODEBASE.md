@@ -26,13 +26,13 @@ Tthanh2k6/
 
 ## 2. Bố cục `README.md` (từ trên xuống)
 
-1. Hero banner (`assets/hero-banner.svg`) + dòng chữ tự gõ (`readme-typing-svg.demolab.com`).
-2. Hàng badge `shields.io`: Upwork · Apify Store · Portfolio (`trungthanhtran.vercel.app`) · dev.to · Email.
+1. Hero banner (`assets/hero-banner.svg`) + dòng chữ tự gõ (`readme-typing-svg.demolab.com`, JetBrains Mono 18px, màu trung tính `#6E7781`, 4 câu: "Python & automation developer" / "Web scraping · Apify Actors · n8n/Make" / "I like finding the JSON API behind a page" / "Chrome extensions (MV3) & small APIs").
+2. Hàng badge `shields.io` `for-the-badge`, cùng một màu `#24292F`, theo thứ tự: Portfolio (`trungthanhtran.vercel.app`) · Apify Store · dev.to · Email · Upwork.
 3. "Hi, I'm Thanh" + câu kêu gọi thuê (blockquote).
 4. "What I work on" — danh sách 4 mảng.
-5. "Stack" — `skillicons.dev` + badge cho httpx/Playwright/Apify/n8n/Make/Apps Script/Expo.
-6. "Featured projects" — `vn-sme-offline-tools` (GIF thật + badge Live demo/Source) và lưới 2×2 thẻ SVG; `<details>` "More public projects".
-7. "Certificates" — badge HackerRank; chân trang sóng `capsule-render.vercel.app`.
+5. "Stack" — `skillicons.dev` đúng 10 mục: Python, TypeScript, JavaScript, PHP, Kotlin, Node.js, React, PostgreSQL, Docker, Git (skillicons không có icon SQL chung, nên SQL là badge `flat-square`) + badge cho httpx/Playwright/Apify/n8n/Make/Apps Script/Expo. Không thêm công nghệ ngoài danh sách này.
+6. "Featured projects" — `vn-sme-offline-tools` (GIF thật + badge Live demo/Source) và lưới 2×2 thẻ SVG; câu "The Apify Actors were published in October 2026 and are still new."; `<details>` "More public projects".
+7. "Certificates" — badge HackerRank (mỗi badge có `alt`); chân trang sóng `capsule-render.vercel.app`.
 
 ---
 
@@ -60,3 +60,4 @@ gh api markdown --input req.json > body.html   # bọc thêm github-markdown-dar
 ## 9. Nhật ký Cập nhật Tài liệu
 
 - 2026-10-31: Thiết kế lại profile — banner chữ lớn, GIF màn hình thật, thẻ SVG 410px, bỏ `metrics-strip.svg`, thêm `scripts/make_cards.py` + `scripts/shoot.py`, thêm mục Bất biến.
+- 2026-11-02: Dòng chữ gõ động đổi sang màu trung tính + 4 câu mới; hàng nút `for-the-badge` thống nhất màu `#24292F` (Portfolio · Apify Store · dev.to · Email · Upwork); icon stack rút về đúng 10 công nghệ đã ghi (+ badge SQL); khôi phục câu "Apify Actors ... still new"; thêm `alt` cho badge HackerRank. Đã kiểm 37 URL bằng `curl` (Upwork trả `403` do Cloudflare chặn curl).

@@ -4,15 +4,15 @@
   </a>
 
   <a href="https://trungthanhtran.vercel.app">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=900&color=FF6B00&center=true&vCenter=true&width=640&lines=Web+scrapers+%26+Apify+Actors;Calling+the+JSON+API+behind+the+page;n8n+%2F+Make+workflows+%26+webhooks;Chrome+extensions+(MV3)+%26+small+APIs" alt="Typing intro" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=1200&color=6E7781&center=true&vCenter=true&width=600&height=40&lines=Python+%26+automation+developer;Web+scraping+%C2%B7+Apify+Actors+%C2%B7+n8n%2FMake;I+like+finding+the+JSON+API+behind+a+page;Chrome+extensions+(MV3)+%26+small+APIs" alt="Python &amp; automation developer. Web scraping, Apify Actors, n8n/Make. I like finding the JSON API behind a page." />
   </a>
 
   <p>
-    <a href="https://www.upwork.com/freelancers/trungthanhtrandev"><img src="https://img.shields.io/badge/Hire_me_on_Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork" /></a>
-    <a href="https://apify.com/thanh81646"><img src="https://img.shields.io/badge/Apify_Store-97D700?style=for-the-badge&logo=apify&logoColor=black" alt="Apify Store" /></a>
-    <a href="https://trungthanhtran.vercel.app"><img src="https://img.shields.io/badge/Portfolio-FF6B00?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-    <a href="https://dev.to/tthanh2k6"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="dev.to" /></a>
-    <a href="mailto:ttrungthanh90@gmail.com"><img src="https://img.shields.io/badge/Email-3B82F6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    <a href="https://trungthanhtran.vercel.app"><img src="https://img.shields.io/badge/Portfolio-24292F?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+    <a href="https://apify.com/thanh81646"><img src="https://img.shields.io/badge/Apify_Store-24292F?style=for-the-badge&logo=apify&logoColor=white" alt="Apify Store" /></a>
+    <a href="https://dev.to/tthanh2k6"><img src="https://img.shields.io/badge/dev.to-24292F?style=for-the-badge&logo=devdotto&logoColor=white" alt="dev.to" /></a>
+    <a href="mailto:ttrungthanh90@gmail.com"><img src="https://img.shields.io/badge/Email-24292F?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    <a href="https://www.upwork.com/freelancers/trungthanhtrandev"><img src="https://img.shields.io/badge/Upwork-24292F?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork" /></a>
   </p>
 </div>
 
@@ -32,9 +32,10 @@ Python & automation developer in Ho Chi Minh City (UTC+7). I build web scrapers,
 ### 🧰 Stack
 
 <p align="center">
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=python,fastapi,ts,js,nodejs,php,react,postgres,mysql,sqlite,supabase,kotlin,docker,git,linux&perline=15" alt="Stack icons" /></a>
+  <img src="https://skillicons.dev/icons?i=python,ts,js,php,kotlin,nodejs,react,postgres,docker,git&perline=10" alt="Python, TypeScript, JavaScript, PHP, Kotlin, Node.js, React, PostgreSQL, Docker, Git" />
 </p>
 <p align="center">
+  <img src="https://img.shields.io/badge/SQL-1E293B?style=flat-square" alt="SQL" />
   <img src="https://img.shields.io/badge/httpx-1E293B?style=flat-square&logo=python&logoColor=FFD43B" alt="httpx" />
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
   <img src="https://img.shields.io/badge/Apify_SDK-97D700?style=flat-square&logo=apify&logoColor=black" alt="Apify SDK" />
@@ -59,6 +60,8 @@ Python & automation developer in Ho Chi Minh City (UTC+7). I build web scrapers,
   <a href="https://github.com/Tthanh2k6/DiemDanhQR"><img src="./assets/cards/diemdanhqr.svg" alt="DiemDanhQR" width="49%" /></a>
 </p>
 
+The Apify Actors were published in October 2026 and are still new.
+
 <details>
 <summary><b>More public projects</b></summary>
 
@@ -72,6 +75,6 @@ Python & automation developer in Ho Chi Minh City (UTC+7). I build web scrapers,
 
 ### 📜 Certificates
 
-<img src="https://img.shields.io/badge/HackerRank-Software_Engineer-2EC866?style=flat-square&logo=hackerrank&logoColor=white" /> <img src="https://img.shields.io/badge/HackerRank-REST_API-2EC866?style=flat-square&logo=hackerrank&logoColor=white" /> <img src="https://img.shields.io/badge/HackerRank-SQL_(Advanced)-2EC866?style=flat-square&logo=hackerrank&logoColor=white" /> <img src="https://img.shields.io/badge/HackerRank-Node.js-2EC866?style=flat-square&logo=hackerrank&logoColor=white" /> <img src="https://img.shields.io/badge/HackerRank-JavaScript-2EC866?style=flat-square&logo=hackerrank&logoColor=white" /> <img src="https://img.shields.io/badge/HackerRank-Problem_Solving-2EC866?style=flat-square&logo=hackerrank&logoColor=white" />
+<img src="https://img.shields.io/badge/HackerRank-Software_Engineer-2EC866?style=flat-square&logo=hackerrank&logoColor=white" alt="HackerRank: Software Engineer" /> <img src="https://img.shields.io/badge/HackerRank-REST_API-2EC866?style=flat-square&logo=hackerrank&logoColor=white" alt="HackerRank: REST API" /> <img src="https://img.shields.io/badge/HackerRank-SQL_(Advanced)-2EC866?style=flat-square&logo=hackerrank&logoColor=white" alt="HackerRank: SQL (Advanced)" /> <img src="https://img.shields.io/badge/HackerRank-Node.js-2EC866?style=flat-square&logo=hackerrank&logoColor=white" alt="HackerRank: Node.js" /> <img src="https://img.shields.io/badge/HackerRank-JavaScript-2EC866?style=flat-square&logo=hackerrank&logoColor=white" alt="HackerRank: JavaScript" /> <img src="https://img.shields.io/badge/HackerRank-Problem_Solving-2EC866?style=flat-square&logo=hackerrank&logoColor=white" alt="HackerRank: Problem Solving" />
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:07080D,50:FF6B00,100:00F0FF&height=90&section=footer" width="100%" alt="" />
