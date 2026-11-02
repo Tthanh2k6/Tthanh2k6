@@ -29,6 +29,12 @@ Python & automation developer in Ho Chi Minh City (UTC+7). I build web scrapers,
 - 🤖 **AI features** — LLM extraction with strict JSON schemas, RAG search, small vision models
 - 📱 **Apps** — React Native app + PHP REST API for a cosmetics retailer (current job since May 2026, built alone, live on Google Play)
 
+### 🔭 Right now
+
+- Small offline browser tools for Vietnamese small businesses: fleet fuel & toll reconciliation, and booking pages with VietQR deposits
+- Keeping my five Apify Actors working (they are new, with few runs so far)
+- Short dev.to posts on scraping, Google Sheets and Chrome extensions
+
 ### 🧰 Stack
 
 <p align="center">
@@ -69,7 +75,7 @@ The Apify Actors were published in October 2026 and are still new.
 | :--- | :--- |
 | [apify-us-healthcare-clinic-contact-enricher](https://github.com/Tthanh2k6/apify-us-healthcare-clinic-contact-enricher) | Apify Actor: contact details from US clinic websites, with a simple chain-vs-independent keyword check |
 | [twenty-crm-apify-b2b-sync](https://github.com/Tthanh2k6/twenty-crm-apify-b2b-sync) | Python sync from Apify results into Twenty CRM with dedupe and HMAC webhooks |
-| [burgershop-pod-tool](https://github.com/Tthanh2k6/burgershop-pod-tool) | Manifest V3 Chrome extension that automates multi-step product listings |
+| [moto-nav](https://github.com/Tthanh2k6/moto-nav) | Android app + ESP32 handlebar display for turn-by-turn directions over BLE (learning project) |
 
 </details>
 
