@@ -9,7 +9,7 @@ OUT.mkdir(parents=True, exist_ok=True)
 
 CARDS = [
     ("web-scraping-showcase", "PYTHON · TOOLKIT", "web-scraping-showcase",
-     "Async httpx + Playwright scraping patterns, an API sniffer CLI, retry/backoff, CSV / XLSX / SQLite output.",
+     "Async httpx + Playwright scraping patterns, an API sniffer CLI, retry/backoff, CSV / JSON / SQLite output.",
      ["httpx", "Playwright", "SQLite", "pytest"], "#3776AB"),
     ("b2b-enricher", "APIFY ACTOR", "B2B lead & contact enricher",
      "Finds emails, phone numbers, social links and the tech stack on company websites.",
