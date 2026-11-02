@@ -5,3 +5,4 @@
    - Khi người dùng thêm dự án lớn mới hoặc thay đổi thông tin liên hệ / hồ sơ Upwork, đồng bộ tại [`README.md`](file:///d:/Project/Tthanh2k6/README.md), [`assets/hero-banner.svg`](file:///d:/Project/Tthanh2k6/assets/hero-banner.svg) và thẻ dự án (sửa `CARDS` trong `scripts/make_cards.py` rồi chạy lại).
    - Xem trước bằng `gh api markdown` (CODEBASE Mục 4) trước khi push; đây là trang công khai, chỉ push khi người dùng đồng ý.
    - Sau khi người dùng duyệt: `git commit` và `git push origin main`.
+   - Workflow `blog-posts.yml` (bot `blog-post-bot`) tự commit lên `main` khi có bài dev.to mới: luôn `git pull` trước khi sửa, không sửa tay phần giữa `<!-- BLOG-POST-LIST:START -->` và `<!-- BLOG-POST-LIST:END -->`. Chạy tay: `gh workflow run blog-posts.yml -R Tthanh2k6/Tthanh2k6`.

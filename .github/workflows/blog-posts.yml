@@ -1,0 +1,21 @@
+name: Latest blog posts
+
+on:
+  schedule:
+    # Every day at 01:00 UTC (08:00 in Ho Chi Minh City)
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    name: Update README with the latest dev.to articles
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://dev.to/feed/tthanh2k6"
+          max_post_count: 4

@@ -10,6 +10,8 @@
 
 ```text
 Tthanh2k6/
+├── .github/workflows/
+│   └── blog-posts.yml       # gautamkrishnar/blog-post-workflow@v1: lấy 4 bài mới nhất từ https://dev.to/feed/tthanh2k6 ghi vào README (cron 01:00 UTC hằng ngày + workflow_dispatch, quyền contents: write)
 ├── assets/
 │   ├── hero-banner.svg      # Banner SVG động (CSS @keyframes): pill "Available", tên, chức danh, thanh terminal 1 dòng, khối lập phương isometric
 │   ├── vn-sme-tools.gif     # GIF 4 màn hình THẬT của vn-sme-offline-tools (chụp khổ 840px, DPR 2, thu về 1260x840)
@@ -32,7 +34,8 @@ Tthanh2k6/
 4. "What I work on" — danh sách 4 mảng.
 5. "Stack" — `skillicons.dev` đúng 10 mục: Python, TypeScript, JavaScript, PHP, Kotlin, Node.js, React, PostgreSQL, Docker, Git (skillicons không có icon SQL chung, nên SQL là badge `flat-square`) + badge cho httpx/Playwright/Apify/n8n/Make/Apps Script/Expo. Không thêm công nghệ ngoài danh sách này.
 6. "Featured projects" — `vn-sme-offline-tools` (GIF thật + badge Live demo/Source) và lưới 2×2 thẻ SVG; câu "The Apify Actors were published in October 2026 and are still new."; `<details>` "More public projects".
-7. "Certificates" — badge HackerRank (mỗi badge có `alt`); chân trang sóng `capsule-render.vercel.app`.
+7. "Latest articles" — danh sách bài dev.to nằm giữa `<!-- BLOG-POST-LIST:START -->` / `<!-- BLOG-POST-LIST:END -->`, do workflow `blog-posts.yml` tự ghi đè (không sửa tay phần giữa 2 chú thích; giữ nguyên 2 chú thích). Định dạng mẫu mặc định của action: `- [title](url)`, tiêu đề được mã hóa HTML (`&amp;`, `&lpar;`, `&rpar;`) — GitHub vẫn hiện đúng `&`, `(`, `)`.
+8. "Certificates" — badge HackerRank (mỗi badge có `alt`); chân trang sóng `capsule-render.vercel.app`.
 
 ---
 
@@ -61,3 +64,4 @@ gh api markdown --input req.json > body.html   # bọc thêm github-markdown-dar
 
 - 2026-10-31: Thiết kế lại profile — banner chữ lớn, GIF màn hình thật, thẻ SVG 410px, bỏ `metrics-strip.svg`, thêm `scripts/make_cards.py` + `scripts/shoot.py`, thêm mục Bất biến.
 - 2026-11-02: Dòng chữ gõ động đổi sang màu trung tính + 4 câu mới; hàng nút `for-the-badge` thống nhất màu `#24292F` (Portfolio · Apify Store · dev.to · Email · Upwork); icon stack rút về đúng 10 công nghệ đã ghi (+ badge SQL); khôi phục câu "Apify Actors ... still new"; thêm `alt` cho badge HackerRank. Đã kiểm 37 URL bằng `curl` (Upwork trả `403` do Cloudflare chặn curl).
+- 2026-11-02: Thêm mục "Latest articles" (sau Featured projects) + workflow `.github/workflows/blog-posts.yml` (`gautamkrishnar/blog-post-workflow@v1`, feed dev.to, tối đa 4 bài, chạy hằng ngày + thủ công); điền sẵn 3 bài hiện có trong feed theo đúng định dạng action sinh ra.
