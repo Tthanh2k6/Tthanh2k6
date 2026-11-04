@@ -12,6 +12,7 @@
     <a href="https://apify.com/thanh81646"><img src="https://img.shields.io/badge/Apify_Store-24292F?style=for-the-badge&logo=apify&logoColor=white" alt="Apify Store" /></a>
     <a href="https://dev.to/tthanh2k6"><img src="https://img.shields.io/badge/dev.to-24292F?style=for-the-badge&logo=devdotto&logoColor=white" alt="dev.to" /></a>
     <a href="mailto:ttrungthanh90@gmail.com"><img src="https://img.shields.io/badge/Email-24292F?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    <a href="https://contra.com/trung_thanh_tran_7tjnw73h"><img src="https://img.shields.io/badge/Contra-24292F?style=for-the-badge&logoColor=white" alt="Contra" /></a>
     <a href="https://www.upwork.com/freelancers/trungthanhtrandev"><img src="https://img.shields.io/badge/Upwork-24292F?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork" /></a>
   </p>
 </div>
@@ -20,7 +21,7 @@
 
 Python & automation developer in Ho Chi Minh City (UTC+7). I build web scrapers, Apify Actors, n8n/Make workflows and small API services, and I prefer calling the JSON API behind a page over scraping the rendered HTML.
 
-> **Need data from a website, or a manual workflow automated?** Send me the URL or the steps — I'll reply with a small sample before you commit. [Upwork](https://www.upwork.com/freelancers/trungthanhtrandev) · [Email](mailto:ttrungthanh90@gmail.com)
+> **Need data from a website, or a manual workflow automated?** Send me the URL or the steps — I'll reply with a small sample before you commit. [Upwork](https://www.upwork.com/freelancers/trungthanhtrandev) · [Contra](https://contra.com/trung_thanh_tran_7tjnw73h) · [Email](mailto:ttrungthanh90@gmail.com)
 
 ### 🛠️ What I work on
 
@@ -52,6 +53,9 @@ Python & automation developer in Ho Chi Minh City (UTC+7). I build web scrapers,
 </p>
 
 ### 🚀 Featured projects
+
+<a href="https://github.com/Tthanh2k6/discord-membership-bot"><b>discord-membership-bot</b></a> — Discord bot that gives a paid role to members with an active Stripe, Whop or Zapier/Make subscription and removes it when the paid period ends; posts Shopify order alerts without customer contact details. Node.js, discord.js, node:sqlite, 57 offline tests.
+<a href="https://github.com/Tthanh2k6/discord-membership-bot"><img src="https://img.shields.io/badge/Source-181717?style=flat-square&logo=github" alt="Source" /></a>
 
 <a href="https://tthanh2k6.github.io/vn-sme-offline-tools/"><b>vn-sme-offline-tools</b></a> — 9 offline browser tools for Vietnamese small businesses (VietQR cashier, debt aging, quotes, fleet fuel & toll reconciliation, e-invoice XML check). No server; data stays on the device.
 <a href="https://tthanh2k6.github.io/vn-sme-offline-tools/"><img src="https://img.shields.io/badge/Live_demo-FF6B00?style=flat-square&logo=githubpages&logoColor=white" alt="Live demo" /></a>
