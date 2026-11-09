@@ -1,10 +1,10 @@
 <div align="center">
   <a href="https://trungthanhtran.vercel.app">
-    <img src="./assets/hero-banner.svg" alt="Trung Thanh Tran — Python & automation developer" width="100%" />
+    <img src="./assets/hero-banner.svg" alt="Trung Thanh Tran, full-stack developer: Supabase security, React Native, Python" width="100%" />
   </a>
 
   <a href="https://trungthanhtran.vercel.app">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=1200&color=6E7781&center=true&vCenter=true&width=600&height=40&lines=Python+%26+automation+developer;Web+scraping+%C2%B7+Apify+Actors+%C2%B7+n8n%2FMake;I+like+finding+the+JSON+API+behind+a+page;Chrome+extensions+(MV3)+%26+small+APIs" alt="Python &amp; automation developer. Web scraping, Apify Actors, n8n/Make. I like finding the JSON API behind a page." />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=1200&color=6E7781&center=true&vCenter=true&width=600&height=40&lines=Full-stack+developer;Supabase%2FPostgres+security+(RLS);React+Native+apps;Python+automation" alt="Full-stack developer. Supabase/Postgres security, React Native apps, Python automation." />
   </a>
 
   <p>
@@ -19,22 +19,15 @@
 
 ### 👋 Hi, I'm Thanh
 
-Python & automation developer in Ho Chi Minh City (UTC+7). I build web scrapers, Apify Actors, n8n/Make workflows and small API services, and I prefer calling the JSON API behind a page over scraping the rendered HTML.
+Full-stack developer in Ho Chi Minh City (UTC+7). I build and ship apps, and I review Supabase/Postgres projects for the access-control mistakes that fast-built apps often have. Open to remote contract work, about 20–30 hours a week, async and in writing.
 
-> **Need data from a website, or a manual workflow automated?** Send me the URL or the steps — I'll reply with a small sample before you commit. [Upwork](https://www.upwork.com/freelancers/trungthanhtrandev) · [Contra](https://contra.com/trung_thanh_tran_7tjnw73h) · [Email](mailto:ttrungthanh90@gmail.com)
+> **Need a Supabase RLS review, or help on a React Native or Python project?** [Contra](https://contra.com/trung_thanh_tran_7tjnw73h) · [Upwork](https://www.upwork.com/freelancers/trungthanhtrandev) · [Email](mailto:ttrungthanh90@gmail.com)
 
 ### 🛠️ What I work on
 
-- 🕸️ **Web data** — async Python (`httpx`, Playwright) scrapers and Apify Actors → clean CSV / JSON / Google Sheets
-- ⚙️ **Automation** — n8n & Make workflows, webhooks, CRM and Sheets integrations, Google Apps Script, Chrome extensions (MV3)
-- 🤖 **AI features** — LLM extraction with strict JSON schemas, RAG search, small vision models
-- 📱 **Apps** — React Native app + PHP REST API for a cosmetics retailer (current job since May 2026, built alone, live on Google Play)
-
-### 🔭 Right now
-
-- Small offline browser tools for Vietnamese small businesses: fleet fuel & toll reconciliation, and booking pages with VietQR deposits
-- Keeping my five Apify Actors working (they are new, with few runs so far)
-- Short dev.to posts on scraping, Google Sheets and Chrome extensions
+- 🔐 **Supabase/Postgres security**: Row Level Security and policy review, SECURITY DEFINER grants, Storage buckets. I wrote [supabase-rls-check](https://github.com/Tthanh2k6/supabase-rls-check), an open-source CLI, MCP server and GitHub Action (11 catalog rules, 66 tests, CI on PostgreSQL 15).
+- 📱 **React Native apps**: full-time developer at Madalena, a cosmetics retailer, since March 2026. I built its loyalty app as the only developer (React Native, Expo, TypeScript, PHP REST API, Electron admin). It is on the App Store and Google Play.
+- ⚙️ **Python automation**: five public Apify Actors, n8n and Make workflows, Google Apps Script, webhooks.
 
 ### 🧰 Stack
 
@@ -53,6 +46,14 @@ Python & automation developer in Ho Chi Minh City (UTC+7). I build web scrapers,
 </p>
 
 ### 🚀 Featured projects
+
+**[supabase-rls-check](https://github.com/Tthanh2k6/supabase-rls-check)**: read-only checks for Supabase RLS, policies, SECURITY DEFINER grants and public buckets. CLI, MCP server and GitHub Action; 11 catalog rules, 66 tests. `pipx install supabase-rls-check`
+[PyPI](https://pypi.org/project/supabase-rls-check/) · [Glama](https://glama.ai/mcp/servers/Tthanh2k6/supabase-rls-check) · [Agent skill on Agensi](https://www.agensi.io/skills/supabase-rls-review) · [Cursor plugin](https://github.com/Tthanh2k6/supabase-rls-plugin)
+
+**Race-safe salon booking** (Cloudflare Workers + D1): five simultaneous requests for the same technician and time give 1 booking and 4 rejections. Per-technician iCal feeds, admin page, English/Vietnamese UI, 11 tests.
+[Live demo](https://lotus-nail-booking.lotus-nail-booking-v2.workers.dev) (deposits are turned off on the demo)
+
+**[remote-contract-jobs](https://github.com/Tthanh2k6/remote-contract-jobs)**: CLI and MCP server that collects remote contract and part-time developer jobs from 8 public sources and filters out location, video-call and ID-document blockers. 81 tests. [PyPI](https://pypi.org/project/remote-contract-jobs/)
 
 <a href="https://github.com/Tthanh2k6/discord-membership-bot"><b>discord-membership-bot</b></a> — Discord bot that gives a paid role to members with an active Stripe, Whop or Zapier/Make subscription and removes it when the paid period ends; posts Shopify order alerts without customer contact details. Node.js, discord.js, node:sqlite, 57 offline tests.
 <a href="https://github.com/Tthanh2k6/discord-membership-bot"><img src="https://img.shields.io/badge/Source-181717?style=flat-square&logo=github" alt="Source" /></a>

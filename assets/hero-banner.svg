@@ -130,13 +130,13 @@
   <g transform="translate(52, 34)">
     <rect x="0" y="0" width="560" height="40" rx="20" fill="#0F172A" fill-opacity="0.9" stroke="#1E293B" stroke-width="1.2"/>
     <circle class="pulse" cx="22" cy="20" r="6" fill="#10B981"/>
-    <text x="40" y="26" class="font-mono" font-size="16.5" font-weight="600" fill="#E2E8F0" letter-spacing="1.2">AVAILABLE FOR FREELANCE · HCMC (GMT+7)</text>
+    <text x="40" y="26" class="font-mono" font-size="16.5" font-weight="600" fill="#E2E8F0" letter-spacing="1.2">OPEN TO REMOTE CONTRACTS · HCMC (GMT+7)</text>
   </g>
 
   <!-- Main Name & Headline -->
   <text x="50" y="150" class="font-sans" font-size="68" font-weight="800" fill="url(#titleGrad)" letter-spacing="-1">Trung Thanh Tran</text>
 
-  <text x="52" y="200" class="font-sans" font-size="28" font-weight="600" fill="#38BDF8">Web Scraping · Automation · Full-Stack</text>
+  <text x="52" y="200" class="font-sans" font-size="28" font-weight="600" fill="#38BDF8">Supabase Security · React Native · Python</text>
 
   <rect x="52" y="220" width="600" height="3" rx="1.5" fill="url(#accentLine)"/>
 
