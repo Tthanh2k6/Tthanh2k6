@@ -25,7 +25,7 @@ Full-stack developer in Ho Chi Minh City (UTC+7). I build and ship apps, and I r
 
 ### 🛠️ What I work on
 
-- 🔐 **Supabase/Postgres security**: Row Level Security and policy review, SECURITY DEFINER grants, Storage buckets. I wrote [supabase-rls-check](https://github.com/Tthanh2k6/supabase-rls-check), an open-source CLI, MCP server and GitHub Action (11 catalog rules, 66 tests, CI on PostgreSQL 15).
+- 🔐 **Supabase/Postgres security**: Row Level Security and policy review, SECURITY DEFINER grants, Storage buckets. I wrote [supabase-rls-check](https://github.com/Tthanh2k6/supabase-rls-check), an open-source CLI, MCP server and GitHub Action (14 catalog rules plus a scan for secret keys in public env variables, 89 tests, CI on PostgreSQL 15).
 - 📱 **React Native apps**: full-time developer at Madalena, a cosmetics retailer, since March 2026. I built its loyalty app as the only developer (React Native, Expo, TypeScript, PHP REST API, Electron admin). It is on the App Store and Google Play.
 - ⚙️ **Python automation**: five public Apify Actors, n8n and Make workflows, Google Apps Script, webhooks.
 
@@ -47,7 +47,7 @@ Full-stack developer in Ho Chi Minh City (UTC+7). I build and ship apps, and I r
 
 ### 🚀 Featured projects
 
-**[supabase-rls-check](https://github.com/Tthanh2k6/supabase-rls-check)**: read-only checks for Supabase RLS, policies, SECURITY DEFINER grants and public buckets. CLI, MCP server and GitHub Action; 11 catalog rules, 66 tests. `pipx install supabase-rls-check`
+**[supabase-rls-check](https://github.com/Tthanh2k6/supabase-rls-check)**: read-only checks for Supabase RLS, policies, SECURITY DEFINER grants and public buckets. CLI, MCP server and GitHub Action; 14 catalog rules, 89 tests. `pipx install supabase-rls-check`
 [PyPI](https://pypi.org/project/supabase-rls-check/) · [Glama](https://glama.ai/mcp/servers/Tthanh2k6/supabase-rls-check) · [Agent skill on Agensi](https://www.agensi.io/skills/supabase-rls-review) · [Cursor plugin](https://github.com/Tthanh2k6/supabase-rls-plugin)
 
 **Race-safe salon booking** (Cloudflare Workers + D1): five simultaneous requests for the same technician and time give 1 booking and 4 rejections. Per-technician iCal feeds, admin page, English/Vietnamese UI, 11 tests.
@@ -57,7 +57,7 @@ Full-stack developer in Ho Chi Minh City (UTC+7). I build and ship apps, and I r
 
 **[market-data-pipeline](https://github.com/Tthanh2k6/market-data-pipeline)**: Python job that pulls free market data (indices, FX, crypto, commodities, bonds, VIX), normalizes OHLCV to UTC, validates it, adds indicators and upserts into Supabase on a GitHub Actions schedule. 22 tests.
 
-**[remote-contract-jobs](https://github.com/Tthanh2k6/remote-contract-jobs)**: CLI and MCP server that collects remote contract and part-time developer jobs from 8 public sources and filters out location, video-call and ID-document blockers. 81 tests. [PyPI](https://pypi.org/project/remote-contract-jobs/)
+**[remote-contract-jobs](https://github.com/Tthanh2k6/remote-contract-jobs)**: CLI and MCP server that collects remote contract and part-time developer jobs from 8 public sources and filters out location, video-call and ID-document blockers. 82 tests. [PyPI](https://pypi.org/project/remote-contract-jobs/)
 
 <a href="https://github.com/Tthanh2k6/discord-membership-bot"><b>discord-membership-bot</b></a> — Discord bot that gives a paid role to members with an active Stripe, Whop or Zapier/Make subscription and removes it when the paid period ends; posts Shopify order alerts without customer contact details. Node.js, discord.js, node:sqlite, 57 offline tests.
 <a href="https://github.com/Tthanh2k6/discord-membership-bot"><img src="https://img.shields.io/badge/Source-181717?style=flat-square&logo=github" alt="Source" /></a>
