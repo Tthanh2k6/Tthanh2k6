@@ -53,6 +53,10 @@ Full-stack developer in Ho Chi Minh City (UTC+7). I build and ship apps, and I r
 **Race-safe salon booking** (Cloudflare Workers + D1): five simultaneous requests for the same technician and time give 1 booking and 4 rejections. Per-technician iCal feeds, admin page, English/Vietnamese UI, 11 tests.
 [Live demo](https://lotus-nail-booking.lotus-nail-booking-v2.workers.dev) (deposits are turned off on the demo)
 
+**[supabase-multitenant-rls](https://github.com/Tthanh2k6/supabase-multitenant-rls)**: reference migration for many customers in one shared Postgres schema on Supabase. Forced RLS, roles from a memberships table, composite keys that block cross-tenant references, tenant-scoped Storage. 19 tests sign in as real users and try to cross the boundary; CI also lints the schema with supabase-rls-check (0 findings).
+
+**[market-data-pipeline](https://github.com/Tthanh2k6/market-data-pipeline)**: Python job that pulls free market data (indices, FX, crypto, commodities, bonds, VIX), normalizes OHLCV to UTC, validates it, adds indicators and upserts into Supabase on a GitHub Actions schedule. 22 tests.
+
 **[remote-contract-jobs](https://github.com/Tthanh2k6/remote-contract-jobs)**: CLI and MCP server that collects remote contract and part-time developer jobs from 8 public sources and filters out location, video-call and ID-document blockers. 81 tests. [PyPI](https://pypi.org/project/remote-contract-jobs/)
 
 <a href="https://github.com/Tthanh2k6/discord-membership-bot"><b>discord-membership-bot</b></a> — Discord bot that gives a paid role to members with an active Stripe, Whop or Zapier/Make subscription and removes it when the paid period ends; posts Shopify order alerts without customer contact details. Node.js, discord.js, node:sqlite, 57 offline tests.
