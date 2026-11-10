@@ -1,6 +1,6 @@
 # Tài liệu Chi tiết Kho Mã nguồn — GitHub Profile (`Tthanh2k6`)
 
-> **Đường dẫn dự án:** `d:\Project\Tthanh2k6`  
+> **Đường dẫn dự án:** `d:\Project\1-dang-ban\Tthanh2k6`  
 > **Kho lưu trữ GitHub:** `https://github.com/Tthanh2k6/Tthanh2k6` (Special Profile Repository hiển thị trực tiếp tại `https://github.com/Tthanh2k6`)  
 > **Mục đích:** Trang giới thiệu năng lực (English) cho khách Upwork, nhà tuyển dụng và cộng đồng mã nguồn mở.
 
