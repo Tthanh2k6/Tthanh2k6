@@ -93,10 +93,10 @@ The Apify Actors were published in October 2026 and are still new.
 ### ✍️ Latest articles
 
 <!-- BLOG-POST-LIST:START -->
+- [Reader Comments Shaped Three Releases of supabase-rls-check](https://dev.to/tthanh2k6/reader-comments-shaped-three-releases-of-supabase-rls-check-hi3)
 - [Five Supabase RLS Mistakes a Read-Only Query Can Catch](https://dev.to/tthanh2k6/five-supabase-rls-mistakes-a-read-only-query-can-catch-100p)
 - [Detecting Chain Ownership on US Clinic Websites with Python](https://dev.to/tthanh2k6/detecting-chain-ownership-on-us-clinic-websites-with-python-513)
-- [Getting Past Google Apps Script&#39;s 6-Minute Limit and n8n Out-of-Memory Crashes](https://dev.to/tthanh2k6/getting-past-google-apps-scripts-6-minute-limit-and-n8n-out-of-memory-crashes-4964)
-- [Building a B2B Lead Enricher and a 2-Opt Route Optimizer in Python &lpar;No Headless Browser&rpar;](https://dev.to/tthanh2k6/engineering-sub-second-b2b-lead-enrichment-2-opt-route-optimization-pipelines-in-python-1le8)
+- [Offline Vietnamese fuel receipt OCR in Python and the apostrophe bug that zeroed three fields](https://dev.to/tthanh2k6/offline-vietnamese-fuel-receipt-ocr-in-python-and-the-apostrophe-bug-that-zeroed-three-fields-8n5)
 <!-- BLOG-POST-LIST:END -->
 
 ### 📜 Certificates
