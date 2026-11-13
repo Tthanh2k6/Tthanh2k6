@@ -25,7 +25,7 @@ Full-stack developer in Ho Chi Minh City (UTC+7). I build and ship apps, and I r
 
 ### 🛠️ What I work on
 
-- 🔐 **Supabase/Postgres security**: Row Level Security and policy review, SECURITY DEFINER grants, Storage buckets. I wrote [supabase-rls-check](https://github.com/Tthanh2k6/supabase-rls-check), an open-source CLI, MCP server and GitHub Action (15 catalog rules, a scan for secret keys in public env variables and a diff between two runs; 100 tests, CI on PostgreSQL 15).
+- 🔐 **Supabase/Postgres security**: Row Level Security and policy review, SECURITY DEFINER grants, Storage buckets. I wrote [supabase-rls-check](https://github.com/Tthanh2k6/supabase-rls-check), an open-source CLI, MCP server and GitHub Action (17 catalog rules, a scan for secret keys in public env variables and client/agent configs, and a diff between two runs; 133 tests, CI on PostgreSQL 15).
 - 📱 **React Native apps**: full-time developer at Madalena, a cosmetics retailer, since March 2026. I built its loyalty app as the only developer (React Native, Expo, TypeScript, PHP REST API, Electron admin). It is on the App Store and Google Play.
 - ⚙️ **Python automation**: five public Apify Actors, n8n and Make workflows, Google Apps Script, webhooks.
 
@@ -47,7 +47,7 @@ Full-stack developer in Ho Chi Minh City (UTC+7). I build and ship apps, and I r
 
 ### 🚀 Featured projects
 
-**[supabase-rls-check](https://github.com/Tthanh2k6/supabase-rls-check)**: read-only checks for Supabase RLS, policies, SECURITY DEFINER grants and public buckets. CLI, MCP server and GitHub Action; 15 catalog rules, 100 tests. `pipx install supabase-rls-check`
+**[supabase-rls-check](https://github.com/Tthanh2k6/supabase-rls-check)**: read-only checks for Supabase RLS, policies, SECURITY DEFINER grants and public buckets. CLI, MCP server and GitHub Action; 17 catalog rules, 133 tests. `pipx install supabase-rls-check`
 [PyPI](https://pypi.org/project/supabase-rls-check/) · [Glama](https://glama.ai/mcp/servers/Tthanh2k6/supabase-rls-check) · [Agent skill on Agensi](https://www.agensi.io/skills/supabase-rls-review) · [Cursor plugin](https://github.com/Tthanh2k6/supabase-rls-plugin)
 
 **Race-safe salon booking** (Cloudflare Workers + D1): five simultaneous requests for the same technician and time give 1 booking and 4 rejections. Per-technician iCal feeds, admin page, English/Vietnamese UI, 11 tests.
@@ -55,9 +55,9 @@ Full-stack developer in Ho Chi Minh City (UTC+7). I build and ship apps, and I r
 
 **[supabase-multitenant-rls](https://github.com/Tthanh2k6/supabase-multitenant-rls)**: reference migration for many customers in one shared Postgres schema on Supabase. Forced RLS, roles from a memberships table, composite keys that block cross-tenant references, tenant-scoped Storage. 19 tests sign in as real users and try to cross the boundary; CI also lints the schema with supabase-rls-check (0 findings).
 
-**[market-data-pipeline](https://github.com/Tthanh2k6/market-data-pipeline)**: Python job that pulls free market data (indices, FX, crypto, commodities, bonds, VIX), normalizes OHLCV to UTC, validates it, adds indicators and upserts into Supabase on a GitHub Actions schedule. 22 tests.
+**[market-data-pipeline](https://github.com/Tthanh2k6/market-data-pipeline)**: Python job that pulls free market data (indices, FX, crypto, commodities, bonds, VIX), normalizes OHLCV to UTC, validates it, adds indicators and upserts into Supabase on a GitHub Actions schedule. 23 tests.
 
-**[remote-contract-jobs](https://github.com/Tthanh2k6/remote-contract-jobs)**: CLI and MCP server that collects remote contract and part-time developer jobs from 8 public sources and filters out location, video-call and ID-document blockers. 83 tests. [PyPI](https://pypi.org/project/remote-contract-jobs/)
+**[remote-contract-jobs](https://github.com/Tthanh2k6/remote-contract-jobs)**: CLI and MCP server that collects remote contract and part-time developer jobs from 8 public sources and filters out location, video-call and ID-document blockers. 84 tests. [PyPI](https://pypi.org/project/remote-contract-jobs/)
 
 **n8n templates**: [n8n-retry-after](https://github.com/Tthanh2k6/n8n-retry-after) reads `Retry-After` (seconds or HTTP date), falls back to jittered backoff and defers long waits instead of holding the workflow open (13 tests). [n8n-lead-followup-drafts](https://github.com/Tthanh2k6/n8n-lead-followup-drafts) turns a Google Sheet of leads into AI-written Gmail drafts that a person reviews and sends; re-runs do not create duplicate drafts (27 tests). Both validated with n8n-mcp, not yet run against live accounts.
 
@@ -85,6 +85,9 @@ The Apify Actors were published in October 2026 and are still new.
 | Project | What it is |
 | :--- | :--- |
 | [apify-us-healthcare-clinic-contact-enricher](https://github.com/Tthanh2k6/apify-us-healthcare-clinic-contact-enricher) | Apify Actor: contact details from US clinic websites, with a simple chain-vs-independent keyword check |
+| [expo-upgrade-casebook](https://github.com/Tthanh2k6/expo-upgrade-casebook) | Open-source Expo SDK 49 to 58 upgrade case study with commit-by-commit fixes (60 Jest suites, 187 tests, Android export CI) |
+| [rn-upgrade-check](https://github.com/Tthanh2k6/rn-upgrade-check) | Zero-dependency Node CLI checking React Native and Expo dependencies against React Native Directory (22 tests) |
+| [chatbot-eval-harness](https://github.com/Tthanh2k6/chatbot-eval-harness) | End-to-end RAG chatbot QA harness using node:test, promptfoo, and Playwright (15 unit tests, 40-prompt suite) |
 | [twenty-crm-apify-b2b-sync](https://github.com/Tthanh2k6/twenty-crm-apify-b2b-sync) | Python sync from Apify results into Twenty CRM with dedupe and HMAC webhooks |
 | [moto-nav](https://github.com/Tthanh2k6/moto-nav) | Android app + ESP32 handlebar display for turn-by-turn directions over BLE (learning project) |
 
