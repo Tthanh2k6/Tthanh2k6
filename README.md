@@ -86,6 +86,7 @@ The Apify Actors were published in October 2026 and are still new.
 | :--- | :--- |
 | [apify-us-healthcare-clinic-contact-enricher](https://github.com/Tthanh2k6/apify-us-healthcare-clinic-contact-enricher) | Apify Actor: contact details from US clinic websites, with a simple chain-vs-independent keyword check |
 | [expo-upgrade-casebook](https://github.com/Tthanh2k6/expo-upgrade-casebook) | Open-source Expo SDK 49 to 58 upgrade case study with commit-by-commit fixes (60 Jest suites, 187 tests, Android export CI) |
+| [expo-build-doctor](https://github.com/Tthanh2k6/expo-build-doctor) | Zero-dependency Node CLI checking Expo `app.json`, `eas.json`, and `package.json` for build and store blockers (21 rules, 26 tests) |
 | [rn-upgrade-check](https://github.com/Tthanh2k6/rn-upgrade-check) | Zero-dependency Node CLI checking React Native and Expo dependencies against React Native Directory (22 tests) |
 | [chatbot-eval-harness](https://github.com/Tthanh2k6/chatbot-eval-harness) | End-to-end RAG chatbot QA harness using node:test, promptfoo, and Playwright (15 unit tests, 40-prompt suite) |
 | [twenty-crm-apify-b2b-sync](https://github.com/Tthanh2k6/twenty-crm-apify-b2b-sync) | Python sync from Apify results into Twenty CRM with dedupe and HMAC webhooks |
