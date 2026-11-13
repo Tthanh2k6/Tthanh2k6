@@ -99,6 +99,10 @@ The Apify Actors were published in October 2026 and are still new.
 - [Offline Vietnamese fuel receipt OCR in Python and the apostrophe bug that zeroed three fields](https://dev.to/tthanh2k6/offline-vietnamese-fuel-receipt-ocr-in-python-and-the-apostrophe-bug-that-zeroed-three-fields-8n5)
 <!-- BLOG-POST-LIST:END -->
 
+### 🤝 Open-source contributions
+
+- **[tabloy/keygate#144](https://github.com/tabloy/keygate/pull/144)** — `fix(web): restore default border color for Tailwind v4` (open-source self-hosted license management platform, ~250 GitHub stars; +15 lines of CSS restoring the default border colour after the Tailwind v4 upgrade, merged 13 Nov 2026).
+
 ### 📜 Certificates
 
 <img src="https://img.shields.io/badge/HackerRank-Software_Engineer-2EC866?style=flat-square&logo=hackerrank&logoColor=white" alt="HackerRank: Software Engineer" /> <img src="https://img.shields.io/badge/HackerRank-REST_API-2EC866?style=flat-square&logo=hackerrank&logoColor=white" alt="HackerRank: REST API" /> <img src="https://img.shields.io/badge/HackerRank-SQL_(Advanced)-2EC866?style=flat-square&logo=hackerrank&logoColor=white" alt="HackerRank: SQL (Advanced)" /> <img src="https://img.shields.io/badge/HackerRank-Node.js-2EC866?style=flat-square&logo=hackerrank&logoColor=white" alt="HackerRank: Node.js" /> <img src="https://img.shields.io/badge/HackerRank-JavaScript-2EC866?style=flat-square&logo=hackerrank&logoColor=white" alt="HackerRank: JavaScript" /> <img src="https://img.shields.io/badge/HackerRank-Problem_Solving-2EC866?style=flat-square&logo=hackerrank&logoColor=white" alt="HackerRank: Problem Solving" />
