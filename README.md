@@ -17,19 +17,19 @@
   </p>
 </div>
 
-### 👋 Hi, I'm Thanh
+### Hi, I'm Thanh
 
 Full-stack developer in Ho Chi Minh City (UTC+7). I build and ship apps, and I review Supabase/Postgres projects for the access-control mistakes that fast-built apps often have. Open to remote contract work, about 20–30 hours a week, async and in writing.
 
-> **Need a Supabase RLS review, or help on a React Native or Python project?** [Contra](https://contra.com/trung_thanh_tran_7tjnw73h) · [Upwork](https://www.upwork.com/freelancers/trungthanhtrandev) · [Email](mailto:ttrungthanh90@gmail.com)
+> Need a Supabase RLS review, or help on a React Native or Python project? [Contra](https://contra.com/trung_thanh_tran_7tjnw73h) · [Upwork](https://www.upwork.com/freelancers/trungthanhtrandev) · [Email](mailto:ttrungthanh90@gmail.com)
 
-### 🛠️ What I work on
+### What I work on
 
 - Supabase/Postgres security: Row Level Security and policy review, SECURITY DEFINER grants, Storage buckets. I wrote [supabase-rls-check](https://github.com/Tthanh2k6/supabase-rls-check), an open-source CLI, MCP server and GitHub Action (17 catalog rules, a scan for secret keys in public env variables and client/agent configs, and a diff between two runs; 133 tests, CI on PostgreSQL 15).
 - React Native apps: full-time developer at Madalena, a cosmetics retailer, since March 2026. I built its loyalty app as the only developer (React Native, Expo, TypeScript, PHP REST API, Electron admin). It is on the App Store and Google Play.
 - Automation: browser automation for AI agents ([turbo-browser-mcp](https://github.com/Tthanh2k6/turbo-browser-mcp)), five public Apify Actors, n8n and Make workflows, Google Apps Script, webhooks.
 
-### 🧰 Stack
+### Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,ts,js,php,kotlin,nodejs,react,postgres,docker,git&perline=10" alt="Python, TypeScript, JavaScript, PHP, Kotlin, Node.js, React, PostgreSQL, Docker, Git" />
@@ -45,7 +45,7 @@ Full-stack developer in Ho Chi Minh City (UTC+7). I build and ship apps, and I r
   <img src="https://img.shields.io/badge/React_Native_(Expo)-000020?style=flat-square&logo=expo&logoColor=white" alt="React Native" />
 </p>
 
-### 🚀 Featured projects
+### Featured projects
 
 **[turbo-browser-mcp](https://github.com/Tthanh2k6/turbo-browser-mcp)**: MCP server that lets AI agents drive a browser in fewer calls. One call fills a whole form (React inputs, comboboxes, uploads from disk), snapshots can return only what changed, and final Submit/Pay clicks are blocked unless the agent is allowed to commit. The receipt check and duplicate-submission protection came from Show HN and dev.to comments. `npx -y turbo-browser-mcp`
 [npm](https://www.npmjs.com/package/turbo-browser-mcp) · [Release notes](https://github.com/Tthanh2k6/turbo-browser-mcp/releases) · [Article](https://dev.to/tthanh2k6/building-a-faster-playwright-mcp-server-compact-dom-deltas-1-turn-form-filling-and-submit-guards-2o2p)
@@ -60,14 +60,14 @@ Full-stack developer in Ho Chi Minh City (UTC+7). I build and ship apps, and I r
 
 **[market-data-pipeline](https://github.com/Tthanh2k6/market-data-pipeline)**: Python job that pulls free market data (indices, FX, crypto, commodities, bonds, VIX), normalizes OHLCV to UTC, validates it, adds indicators and upserts into Supabase. A dry run fetches all 14 symbols without a database; the scheduled workflow is off for now. 23 tests.
 
-**[remote-contract-jobs](https://github.com/Tthanh2k6/remote-contract-jobs)**: CLI and MCP server that collects remote contract and part-time developer jobs from 8 public sources and filters out location, video-call and ID-document blockers. 84 tests. [PyPI](https://pypi.org/project/remote-contract-jobs/)
+**[remote-contract-jobs](https://github.com/Tthanh2k6/remote-contract-jobs)**: CLI and MCP server that collects remote contract and part-time developer jobs from 9 public sources (8 in the current PyPI release) and filters out location, video-call and ID-document blockers. 95 tests. [PyPI](https://pypi.org/project/remote-contract-jobs/)
 
-**n8n templates**: [n8n-retry-after](https://github.com/Tthanh2k6/n8n-retry-after) reads `Retry-After` (seconds or HTTP date), falls back to jittered backoff and defers long waits instead of holding the workflow open (13 tests). [n8n-lead-followup-drafts](https://github.com/Tthanh2k6/n8n-lead-followup-drafts) turns a Google Sheet of leads into AI-written Gmail drafts that a person reviews and sends; re-runs do not create duplicate drafts (27 tests). Both validated with n8n-mcp, not yet run against live accounts.
+**n8n templates**: [n8n-retry-after](https://github.com/Tthanh2k6/n8n-retry-after) reads `Retry-After` (seconds or HTTP date), falls back to jittered backoff and defers long waits instead of holding the workflow open (13 tests). [n8n-lead-followup-drafts](https://github.com/Tthanh2k6/n8n-lead-followup-drafts) turns a Google Sheet of leads into AI-written Gmail drafts that a person reviews and sends; re-runs do not create duplicate drafts (27 tests). Neither has been run against live accounts yet.
 
-<a href="https://github.com/Tthanh2k6/discord-membership-bot"><b>discord-membership-bot</b></a> — Discord bot that gives a paid role to members with an active Stripe, Whop or Zapier/Make subscription and removes it when the paid period ends; posts Shopify order alerts without customer contact details. Node.js, discord.js, node:sqlite, 57 offline tests.
+<a href="https://github.com/Tthanh2k6/discord-membership-bot"><b>discord-membership-bot</b></a>: Discord bot that gives a paid role to members with an active Stripe, Whop or Zapier/Make subscription and removes it when the paid period ends; posts Shopify order alerts without customer contact details. Node.js, discord.js, node:sqlite, 57 offline tests.
 <a href="https://github.com/Tthanh2k6/discord-membership-bot"><img src="https://img.shields.io/badge/Source-181717?style=flat-square&logo=github" alt="Source" /></a>
 
-<a href="https://tthanh2k6.github.io/vn-sme-offline-tools/"><b>vn-sme-offline-tools</b></a> — 9 offline browser tools for Vietnamese small businesses (VietQR cashier, debt aging, quotes, fleet fuel & toll reconciliation, e-invoice XML check). No server; data stays on the device.
+<a href="https://tthanh2k6.github.io/vn-sme-offline-tools/"><b>vn-sme-offline-tools</b></a>: 9 offline browser tools for Vietnamese small businesses (VietQR cashier, debt aging, quotes, fleet fuel & toll reconciliation, e-invoice XML check). No server; data stays on the device.
 <a href="https://tthanh2k6.github.io/vn-sme-offline-tools/"><img src="https://img.shields.io/badge/Live_demo-FF6B00?style=flat-square&logo=githubpages&logoColor=white" alt="Live demo" /></a>
 <a href="https://github.com/Tthanh2k6/vn-sme-offline-tools"><img src="https://img.shields.io/badge/Source-181717?style=flat-square&logo=github" alt="Source" /></a>
 
@@ -97,7 +97,7 @@ The Apify Actors were published in October 2026 and are still new.
 
 </details>
 
-### ✍️ Latest articles
+### Latest articles
 
 <!-- BLOG-POST-LIST:START -->
 - [Building a Faster Playwright MCP Server: Compact DOM Deltas, 1-Turn Form Filling, and Submit Guards](https://dev.to/tthanh2k6/building-a-faster-playwright-mcp-server-compact-dom-deltas-1-turn-form-filling-and-submit-guards-2o2p)
@@ -106,14 +106,14 @@ The Apify Actors were published in October 2026 and are still new.
 - [Five Supabase RLS Mistakes a Read-Only Query Can Catch](https://dev.to/tthanh2k6/five-supabase-rls-mistakes-a-read-only-query-can-catch-100p)
 <!-- BLOG-POST-LIST:END -->
 
-### 🤝 Open-source contributions
+### Open-source contributions
 
 Two merged pull requests to [tabloy/keygate](https://github.com/tabloy/keygate), a self-hosted license management platform (~250 GitHub stars):
 
 - **[#144](https://github.com/tabloy/keygate/pull/144)** `fix(web): restore default border color for Tailwind v4`: restores the default border colour lost in the Tailwind v4 upgrade (merged 13 Nov 2026).
 - **[#147](https://github.com/tabloy/keygate/pull/147)** `fix(store): escape LIKE metacharacters in admin list searches`: six admin searches now treat `%`, `_` and `\` as literal characters, as license search already did (merged 15 Nov 2026).
 
-### 📜 Certificates
+### Certificates
 
 <img src="https://img.shields.io/badge/HackerRank-Software_Engineer-2EC866?style=flat-square&logo=hackerrank&logoColor=white" alt="HackerRank: Software Engineer" /> <img src="https://img.shields.io/badge/HackerRank-REST_API-2EC866?style=flat-square&logo=hackerrank&logoColor=white" alt="HackerRank: REST API" /> <img src="https://img.shields.io/badge/HackerRank-SQL_(Advanced)-2EC866?style=flat-square&logo=hackerrank&logoColor=white" alt="HackerRank: SQL (Advanced)" /> <img src="https://img.shields.io/badge/HackerRank-Node.js-2EC866?style=flat-square&logo=hackerrank&logoColor=white" alt="HackerRank: Node.js" /> <img src="https://img.shields.io/badge/HackerRank-JavaScript-2EC866?style=flat-square&logo=hackerrank&logoColor=white" alt="HackerRank: JavaScript" /> <img src="https://img.shields.io/badge/HackerRank-Problem_Solving-2EC866?style=flat-square&logo=hackerrank&logoColor=white" alt="HackerRank: Problem Solving" />
 
