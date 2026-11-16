@@ -25,9 +25,9 @@ Full-stack developer in Ho Chi Minh City (UTC+7). I build and ship apps, and I r
 
 ### 🛠️ What I work on
 
-- 🔐 **Supabase/Postgres security**: Row Level Security and policy review, SECURITY DEFINER grants, Storage buckets. I wrote [supabase-rls-check](https://github.com/Tthanh2k6/supabase-rls-check), an open-source CLI, MCP server and GitHub Action (17 catalog rules, a scan for secret keys in public env variables and client/agent configs, and a diff between two runs; 133 tests, CI on PostgreSQL 15).
-- 📱 **React Native apps**: full-time developer at Madalena, a cosmetics retailer, since March 2026. I built its loyalty app as the only developer (React Native, Expo, TypeScript, PHP REST API, Electron admin). It is on the App Store and Google Play.
-- ⚙️ **Automation**: browser automation for AI agents ([turbo-browser-mcp](https://github.com/Tthanh2k6/turbo-browser-mcp)), five public Apify Actors, n8n and Make workflows, Google Apps Script, webhooks.
+- Supabase/Postgres security: Row Level Security and policy review, SECURITY DEFINER grants, Storage buckets. I wrote [supabase-rls-check](https://github.com/Tthanh2k6/supabase-rls-check), an open-source CLI, MCP server and GitHub Action (17 catalog rules, a scan for secret keys in public env variables and client/agent configs, and a diff between two runs; 133 tests, CI on PostgreSQL 15).
+- React Native apps: full-time developer at Madalena, a cosmetics retailer, since March 2026. I built its loyalty app as the only developer (React Native, Expo, TypeScript, PHP REST API, Electron admin). It is on the App Store and Google Play.
+- Automation: browser automation for AI agents ([turbo-browser-mcp](https://github.com/Tthanh2k6/turbo-browser-mcp)), five public Apify Actors, n8n and Make workflows, Google Apps Script, webhooks.
 
 ### 🧰 Stack
 
@@ -47,7 +47,7 @@ Full-stack developer in Ho Chi Minh City (UTC+7). I build and ship apps, and I r
 
 ### 🚀 Featured projects
 
-**[turbo-browser-mcp](https://github.com/Tthanh2k6/turbo-browser-mcp)**: MCP server that lets AI agents drive a browser with fewer calls. 11 tools where Playwright MCP has 25: one call fills a whole form (React inputs, comboboxes, uploads from disk), snapshots can return only what changed, and final Submit/Pay clicks are blocked unless the agent is allowed to commit. Receipt checks and duplicate-submission protection came from Show HN and dev.to feedback. 437 tests. `npx -y turbo-browser-mcp`
+**[turbo-browser-mcp](https://github.com/Tthanh2k6/turbo-browser-mcp)**: MCP server that lets AI agents drive a browser in fewer calls. One call fills a whole form (React inputs, comboboxes, uploads from disk), snapshots can return only what changed, and final Submit/Pay clicks are blocked unless the agent is allowed to commit. The receipt check and duplicate-submission protection came from Show HN and dev.to comments. `npx -y turbo-browser-mcp`
 [npm](https://www.npmjs.com/package/turbo-browser-mcp) · [Release notes](https://github.com/Tthanh2k6/turbo-browser-mcp/releases) · [Article](https://dev.to/tthanh2k6/building-a-faster-playwright-mcp-server-compact-dom-deltas-1-turn-form-filling-and-submit-guards-2o2p)
 
 **[supabase-rls-check](https://github.com/Tthanh2k6/supabase-rls-check)**: read-only checks for Supabase RLS, policies, SECURITY DEFINER grants and public buckets. CLI, MCP server and GitHub Action; 17 catalog rules, 133 tests. `pipx install supabase-rls-check`
