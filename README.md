@@ -1,10 +1,10 @@
 <div align="center">
   <a href="https://trungthanhtran.vercel.app">
-    <img src="./assets/hero-banner.svg" alt="Trung Thanh Tran, full-stack developer: Supabase security, React Native, Python" width="100%" />
+    <img src="./assets/hero-banner.svg" alt="Trung Thanh Tran: browser automation for AI agents, Supabase security" width="100%" />
   </a>
 
   <a href="https://trungthanhtran.vercel.app">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=1200&color=6E7781&center=true&vCenter=true&width=600&height=40&lines=Full-stack+developer;Supabase%2FPostgres+security+(RLS);React+Native+apps;Python+automation" alt="Full-stack developer. Supabase/Postgres security, React Native apps, Python automation." />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=1200&color=6E7781&center=true&vCenter=true&width=600&height=40&lines=Browser+automation+for+AI+agents;MCP+servers;Supabase%2FPostgres+security+(RLS)" alt="Browser automation for AI agents. MCP servers. Supabase/Postgres security (RLS)." />
   </a>
 
   <p>
@@ -19,15 +19,15 @@
 
 ### Hi, I'm Thanh
 
-Full-stack developer in Ho Chi Minh City (UTC+7). I build and ship apps, and I review Supabase/Postgres projects for the access-control mistakes that fast-built apps often have. Open to remote contract work, about 20–30 hours a week, async and in writing.
+Full-stack developer in Ho Chi Minh City (UTC+7). I build browser automation and MCP tools for AI agents, and I review Supabase/Postgres projects for the access-control mistakes that fast-built apps often have. Open to remote contract work, about 20–30 hours a week, async and in writing.
 
-> Need a Supabase RLS review, or help on a React Native or Python project? [Contra](https://contra.com/trung_thanh_tran_7tjnw73h) · [Upwork](https://www.upwork.com/freelancers/trungthanhtrandev) · [Email](mailto:ttrungthanh90@gmail.com)
+> Need browser automation for an agent or a scraper, or a Supabase RLS review? [Contra](https://contra.com/trung_thanh_tran_7tjnw73h) · [Upwork](https://www.upwork.com/freelancers/trungthanhtrandev) · [Email](mailto:ttrungthanh90@gmail.com)
 
 ### What I work on
 
+- Browser automation for AI agents: [turbo-browser-mcp](https://github.com/Tthanh2k6/turbo-browser-mcp), an MCP server that fills whole forms and runs action lists in one call (Show HN, 48 points). Also five public Apify Actors, n8n and Make workflows, Google Apps Script, webhooks.
 - Supabase/Postgres security: Row Level Security and policy review, SECURITY DEFINER grants, Storage buckets. I wrote [supabase-rls-check](https://github.com/Tthanh2k6/supabase-rls-check), an open-source CLI, MCP server and GitHub Action (17 catalog rules, a scan for secret keys in public env variables and client/agent configs, and a diff between two runs; 133 tests, CI on PostgreSQL 15).
 - React Native apps: full-time developer at Madalena, a cosmetics retailer, since March 2026. I built its loyalty app as the only developer (React Native, Expo, TypeScript, PHP REST API, Electron admin). It is on the App Store and Google Play.
-- Automation: browser automation for AI agents ([turbo-browser-mcp](https://github.com/Tthanh2k6/turbo-browser-mcp)), five public Apify Actors, n8n and Make workflows, Google Apps Script, webhooks.
 
 ### Stack
 
