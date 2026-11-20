@@ -100,10 +100,10 @@ The Apify Actors were published in October 2026 and are still new.
 ### Latest articles
 
 <!-- BLOG-POST-LIST:START -->
+- [Four DOM Traps That Make Browser Agents Click or Fill the Wrong Element](https://dev.to/tthanh2k6/four-dom-traps-that-make-browser-agents-click-or-fill-the-wrong-element-7ie)
 - [One &quot;Allow remote debugging&quot; click for every agent on my Chrome](https://dev.to/tthanh2k6/one-allow-remote-debugging-click-for-every-agent-on-my-chrome-38l5)
 - [What broke when an AI agent drove real websites overnight through my MCP browser server](https://dev.to/tthanh2k6/what-broke-when-an-ai-agent-drove-real-websites-overnight-through-my-mcp-browser-server-4nje)
 - [Building a Faster Playwright MCP Server: Compact DOM Deltas, 1-Turn Form Filling, and Submit Guards](https://dev.to/tthanh2k6/building-a-faster-playwright-mcp-server-compact-dom-deltas-1-turn-form-filling-and-submit-guards-2o2p)
-- [Extension Tables, Expo Configs, and Static MCP Scanners in supabase-rls-check 0.6.3](https://dev.to/tthanh2k6/extension-tables-expo-configs-and-static-mcp-scanners-in-supabase-rls-check-063-4pni)
 <!-- BLOG-POST-LIST:END -->
 
 ### Open-source contributions
