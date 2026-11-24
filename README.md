@@ -25,7 +25,7 @@ Full-stack developer in Ho Chi Minh City (UTC+7). I build browser automation and
 
 ### What I work on
 
-- Browser automation for AI agents: [turbo-browser-mcp](https://github.com/Tthanh2k6/turbo-browser-mcp), an MCP server that fills whole forms and runs action lists in one call (Show HN, 48 points). Also five public Apify Actors, n8n and Make workflows, Google Apps Script, webhooks.
+- Browser automation for AI agents: [turbo-browser-mcp](https://github.com/Tthanh2k6/turbo-browser-mcp), an MCP server that fills whole forms, reads DOM deltas and runs action lists in one call (Show HN #7 front page, 133 stars, 781 tests), plus [cdp-share](https://github.com/Tthanh2k6/cdp-share) to share one Chrome remote-debugging approval across multiple agents. Also five public Apify Actors, n8n and Make workflows, Google Apps Script, webhooks.
 - Supabase/Postgres security: Row Level Security and policy review, SECURITY DEFINER grants, Storage buckets. I wrote [supabase-rls-check](https://github.com/Tthanh2k6/supabase-rls-check), an open-source CLI, MCP server and GitHub Action (17 catalog rules, a scan for secret keys in public env variables and client/agent configs, and a diff between two runs; 133 tests, CI on PostgreSQL 15).
 - React Native apps: full-time developer at Madalena, a cosmetics retailer, since March 2026. I built its loyalty app as the only developer (React Native, Expo, TypeScript, PHP REST API, Electron admin). It is on the App Store and Google Play.
 
@@ -47,8 +47,8 @@ Full-stack developer in Ho Chi Minh City (UTC+7). I build browser automation and
 
 ### Featured projects
 
-**[turbo-browser-mcp](https://github.com/Tthanh2k6/turbo-browser-mcp)**: MCP server that lets AI agents drive a browser in fewer calls. One call fills a whole form (React inputs, comboboxes, uploads from disk), snapshots can return only what changed, and final Submit/Pay clicks are blocked unless the agent is allowed to commit. The receipt check and duplicate-submission protection came from Show HN and dev.to comments. `npx -y turbo-browser-mcp`
-[npm](https://www.npmjs.com/package/turbo-browser-mcp) · [Release notes](https://github.com/Tthanh2k6/turbo-browser-mcp/releases) · [Article](https://dev.to/tthanh2k6/building-a-faster-playwright-mcp-server-compact-dom-deltas-1-turn-form-filling-and-submit-guards-2o2p)
+**[turbo-browser-mcp](https://github.com/Tthanh2k6/turbo-browser-mcp)**: MCP server that lets AI agents drive a browser in fewer calls (v0.7.2, 11 tools, 781 tests). One call fills a whole form (React inputs, comboboxes, uploads from disk), snapshots return only what changed, `$secret:NAME` placeholders redact credentials from tool output, and final Submit/Pay clicks are blocked unless the agent is allowed to commit. `npx -y turbo-browser-mcp`
+[npm](https://www.npmjs.com/package/turbo-browser-mcp) · [Wiki](https://github.com/Tthanh2k6/turbo-browser-mcp/wiki) · [Release notes](https://github.com/Tthanh2k6/turbo-browser-mcp/releases) · [Article](https://dev.to/tthanh2k6/building-a-faster-playwright-mcp-server-compact-dom-deltas-1-turn-form-filling-and-submit-guards-2o2p)
 
 **[supabase-rls-check](https://github.com/Tthanh2k6/supabase-rls-check)**: read-only checks for Supabase RLS, policies, SECURITY DEFINER grants and public buckets. CLI, MCP server and GitHub Action; 17 catalog rules, 133 tests. `pipx install supabase-rls-check`
 [PyPI](https://pypi.org/project/supabase-rls-check/) · [Glama](https://glama.ai/mcp/servers/Tthanh2k6/supabase-rls-check) · [Agent skill on Agensi](https://www.agensi.io/skills/supabase-rls-review) · [Cursor plugin](https://github.com/Tthanh2k6/supabase-rls-plugin)
@@ -108,10 +108,12 @@ The Apify Actors were published in October 2026 and are still new.
 
 ### Open-source contributions
 
-Two merged pull requests to [tabloy/keygate](https://github.com/tabloy/keygate), a self-hosted license management platform (~250 GitHub stars):
+Merged pull requests in upstream repositories:
 
-- **[#144](https://github.com/tabloy/keygate/pull/144)** `fix(web): restore default border color for Tailwind v4`: restores the default border colour lost in the Tailwind v4 upgrade (merged 13 Nov 2026).
-- **[#147](https://github.com/tabloy/keygate/pull/147)** `fix(store): escape LIKE metacharacters in admin list searches`: six admin searches now treat `%`, `_` and `\` as literal characters, as license search already did (merged 15 Nov 2026).
+- **[ChromeDevTools/chrome-devtools-mcp#3539](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3539)** `--backgroundNewPages`: opens new MCP-created tabs in the background so automated runs do not steal focus (merged 19 Nov 2026).
+- **[callstack/react-native-testing-library#1964](https://github.com/callstack/react-native-testing-library/pull/1964)** `fix: remove global jest namespace dependency from matcher types`: lets TypeScript projects use matcher types without ambient `@types/jest` globals (merged 22 Nov 2026).
+- **[tabloy/keygate#147](https://github.com/tabloy/keygate/pull/147)** `fix(store): escape LIKE metacharacters in admin list searches`: treats `%`, `_` and `\` as literal characters across six admin searches (merged 15 Nov 2026).
+- **[tabloy/keygate#144](https://github.com/tabloy/keygate/pull/144)** `fix(web): restore default border color for Tailwind v4`: restores the default border colour after the Tailwind v4 upgrade (merged 13 Nov 2026).
 
 ### Certificates
 
