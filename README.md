@@ -93,7 +93,7 @@ Merged pull requests in upstream repositories:
 <!-- BLOG-POST-LIST:START -->
 - [I Benchmarked Four Browser MCP Stacks with Claude Code, and Mine Lost on Cost First](https://dev.to/tthanh2k6/i-benchmarked-four-browser-mcp-stacks-with-claude-code-and-mine-lost-on-cost-first-2d8g)
 - [Four DOM Traps That Make Browser Agents Click or Fill the Wrong Element](https://dev.to/tthanh2k6/four-dom-traps-that-make-browser-agents-click-or-fill-the-wrong-element-7ie)
-- [One "Allow remote debugging" click for every agent on my Chrome](https://dev.to/tthanh2k6/one-allow-remote-debugging-click-for-every-agent-on-my-chrome-38l5)
+- [One &quot;Allow remote debugging&quot; click for every agent on my Chrome](https://dev.to/tthanh2k6/one-allow-remote-debugging-click-for-every-agent-on-my-chrome-38l5)
 - [What broke when an AI agent drove real websites overnight through my MCP browser server](https://dev.to/tthanh2k6/what-broke-when-an-ai-agent-drove-real-websites-overnight-through-my-mcp-browser-server-4nje)
 <!-- BLOG-POST-LIST:END -->
 
