@@ -91,10 +91,10 @@ Merged pull requests in upstream repositories:
 ### Latest articles
 
 <!-- BLOG-POST-LIST:START -->
+- [Driving Windows Apps Without Sending 10 Screenshots per Task &lpar;turbo-desktop-mcp&rpar;](https://dev.to/tthanh2k6/driving-windows-apps-without-sending-10-screenshots-per-task-turbo-desktop-mcp-2bmk)
+- [Stopping AI Browser Agents from Stealing Chrome Window Focus over CDP](https://dev.to/tthanh2k6/stopping-ai-browser-agents-from-stealing-chrome-window-focus-over-cdp-1bo7)
 - [I Benchmarked Four Browser MCP Stacks with Claude Code, and Mine Lost on Cost First](https://dev.to/tthanh2k6/i-benchmarked-four-browser-mcp-stacks-with-claude-code-and-mine-lost-on-cost-first-2d8g)
 - [Four DOM Traps That Make Browser Agents Click or Fill the Wrong Element](https://dev.to/tthanh2k6/four-dom-traps-that-make-browser-agents-click-or-fill-the-wrong-element-7ie)
-- [One &quot;Allow remote debugging&quot; click for every agent on my Chrome](https://dev.to/tthanh2k6/one-allow-remote-debugging-click-for-every-agent-on-my-chrome-38l5)
-- [What broke when an AI agent drove real websites overnight through my MCP browser server](https://dev.to/tthanh2k6/what-broke-when-an-ai-agent-drove-real-websites-overnight-through-my-mcp-browser-server-4nje)
 <!-- BLOG-POST-LIST:END -->
 
 ### Certificates
