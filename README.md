@@ -91,10 +91,10 @@ Merged pull requests in upstream repositories:
 ### Latest articles
 
 <!-- BLOG-POST-LIST:START -->
+- [Driving Android Phones Over ADB Without Screenshot Loops or Raw XML Dumps &lpar;turbo-android-mcp&rpar;](https://dev.to/tthanh2k6/driving-android-phones-over-adb-without-screenshot-loops-or-raw-xml-dumps-turbo-android-mcp-3ap5)
 - [My AI coding agent was loading 1,587 skills and 69 browser tools on every prompt](https://dev.to/tthanh2k6/my-ai-coding-agent-was-loading-1587-skills-and-69-browser-tools-on-every-prompt-116i)
 - [Driving Windows Apps Without Sending 10 Screenshots per Task &lpar;turbo-desktop-mcp&rpar;](https://dev.to/tthanh2k6/driving-windows-apps-without-sending-10-screenshots-per-task-turbo-desktop-mcp-2bmk)
 - [Stopping AI Browser Agents from Stealing Chrome Window Focus over CDP](https://dev.to/tthanh2k6/stopping-ai-browser-agents-from-stealing-chrome-window-focus-over-cdp-1bo7)
-- [I Benchmarked Four Browser MCP Stacks with Claude Code, and Mine Lost on Cost First](https://dev.to/tthanh2k6/i-benchmarked-four-browser-mcp-stacks-with-claude-code-and-mine-lost-on-cost-first-2d8g)
 <!-- BLOG-POST-LIST:END -->
 
 ### Certificates
